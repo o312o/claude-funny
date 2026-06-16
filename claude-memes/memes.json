@@ -427,11 +427,19 @@
       "t": "Sleeping Shaq: Feature ที่ฟรีไม่ได้",
       "d": "Extended Thinking? Artifacts? Projects? ฟรีไม่มีนะ หลับต่อ",
       "k": "sleeping",
-      "top": "Claude มี Extended Thinking, Projects, Artifacts",
-      "bot": "User ฟรี: *หลับต่อ*",
       "id": 10,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Claude มี Extended Thinking, Projects, Artifacts",
+          "p": 25
+        },
+        {
+          "v": "User ฟรี: *หลับต่อ*",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "free",
@@ -595,11 +603,19 @@
       "t": "Tuxedo Pooh: Free vs Pro",
       "d": "Free: รอ 4 ชม. | Pro: รอ 40 นาที (แต่ดูหรูกว่า)",
       "k": "tuxedo",
-      "top": "รอ Rate Limit 4 ชม. (Free)",
-      "bot": "รอ Rate Limit 40 นาที (Pro $20)",
       "id": 22,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "รอ Rate Limit 4 ชม. (Free)",
+          "p": 25
+        },
+        {
+          "v": "รอ Rate Limit 40 นาที (Pro $20)",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "pro",
@@ -735,11 +751,19 @@
       "t": "The Rock Driving: เห็น Bill",
       "d": "ขับรถสบาย \"Claude ช่วยงานเยอะมาก\" → เห็น bill → หน้าเปลี่ยน",
       "k": "rock",
-      "top": "\"Claude ช่วยงานได้เยอะมากเดือนนี้!\"",
-      "bot": "*เปิดดู invoice*",
       "id": 33,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"Claude ช่วยงานได้เยอะมากเดือนนี้!\"",
+          "p": 17
+        },
+        {
+          "v": "*เปิดดู invoice*",
+          "p": 83
+        }
+      ]
     },
     {
       "c": "pro",
@@ -783,11 +807,19 @@
       "t": "Finding Neverland: Token หมด",
       "d": "\"พ่อ ทำไม token หมดเร็วจัง?\" — \"Extended Thinking ลูก...\"",
       "k": "neverland",
-      "top": "\"ทำไม token หมดเร็วจัง?\"",
-      "bot": "\"Extended Thinking น่ะลูก...\"",
       "id": 37,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"ทำไม token หมดเร็วจัง?\"",
+          "p": 17
+        },
+        {
+          "v": "\"Extended Thinking น่ะลูก...\"",
+          "p": 83
+        }
+      ]
     },
     {
       "c": "pro",
@@ -807,11 +839,19 @@
       "t": "Boardroom: ลด Pricing",
       "d": "\"จะดึงลูกค้ายังไง?\" → \"ลดราคา!\" → *โยนออกหน้าต่าง*",
       "k": "boardroom",
-      "top": "\"จะดึงลูกค้า Claude ยังไง?\" \"ลดราคา!\" \"ทำ feature เพิ่ม!\"",
-      "bot": "*ลดราคา* 🪟",
       "id": 39,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"จะดึงลูกค้า Claude ยังไง?\" \"ลดราคา!\" \"ทำ feature เพิ่ม!\"",
+          "p": 17
+        },
+        {
+          "v": "*ลดราคา* 🪟",
+          "p": 83
+        }
+      ]
     },
     {
       "c": "pro",
@@ -855,11 +895,19 @@
       "t": "Gru's Plan: Vibe Coding",
       "d": "สั่งสร้าง → ไม่อ่าน code → Deploy → ไม่อ่าน code (เดี๋ยวนะ)",
       "k": "gru",
-      "top": "สั่ง Claude สร้าง app → ไม่อ่าน code → Deploy",
-      "bot": "ไม่อ่าน code สักบรรทัด",
       "id": 43,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "สั่ง Claude สร้าง app → ไม่อ่าน code → Deploy",
+          "p": 25
+        },
+        {
+          "v": "ไม่อ่าน code สักบรรทัด",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "code",
@@ -879,11 +927,19 @@
       "t": "Expanding Brain: วิธีแก้ Bug",
       "d": "Google → StackOverflow → Claude → สั่ง Claude เขียนใหม่ทั้งหมด",
       "k": "brain",
-      "top": "Google → StackOverflow → ถาม Claude",
-      "bot": "สั่ง Claude เขียนใหม่ทั้งหมด",
       "id": 45,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Google → StackOverflow → ถาม Claude",
+          "p": 12
+        },
+        {
+          "v": "สั่ง Claude เขียนใหม่ทั้งหมด",
+          "p": 87
+        }
+      ]
     },
     {
       "c": "code",
@@ -999,11 +1055,19 @@
       "t": "Scooby Mask: \"My Code\"",
       "d": "ถอดหน้ากาก \"โค้ดที่ฉันเขียน\" — ข้างในเป็น Claude Code ทั้งหมด",
       "k": "scooby",
-      "top": "\"Code ที่ฉันเขียน\"",
-      "bot": "จริงๆ แล้ว: Claude Code เขียนทั้งหมด",
       "id": 55,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"Code ที่ฉันเขียน\"",
+          "p": 25
+        },
+        {
+          "v": "จริงๆ แล้ว: Claude Code เขียนทั้งหมด",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "code",
@@ -1107,11 +1171,19 @@
       "t": "No-Yes: อ่าน Code ไหม?",
       "d": "อ่าน code ที่ Claude สร้างให้? ❌ | Accept all? ✅",
       "k": "drake",
-      "top": "อ่าน code ที่ Claude เขียนให้",
-      "bot": "กด Accept All แล้ว push ไปเลย",
       "id": 64,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "อ่าน code ที่ Claude เขียนให้",
+          "p": 25
+        },
+        {
+          "v": "กด Accept All แล้ว push ไปเลย",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "code",
@@ -1131,11 +1203,19 @@
       "t": "Drake: Sycophancy ของ Claude",
       "d": "\"code พัง\" ❌ | \"Creative approach! Let me enhance...\" ✅",
       "k": "drake",
-      "top": "บอกตรงๆ ว่า code มีปัญหา",
-      "bot": "\"What a creative approach!\"",
       "id": 66,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "บอกตรงๆ ว่า code มีปัญหา",
+          "p": 25
+        },
+        {
+          "v": "\"What a creative approach!\"",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "all-users",
@@ -1179,11 +1259,19 @@
       "t": "Anakin Padme: จำ Chat ได้ไหม?",
       "d": "คุยมา 50 ข้อความ → \"จำได้ไหม?\" → Claude: \"...\" → จำได้ใช่ไหม? 😰",
       "k": "anakin",
-      "top": "เราคุยกันมา 50 ข้อความแล้ว!",
-      "bot": "แล้วพรุ่งนี้ก็จำได้ใช่ไหม? ...ใช่ไหม?",
       "id": 70,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "เราคุยกันมา 50 ข้อความแล้ว!",
+          "p": 25
+        },
+        {
+          "v": "แล้วพรุ่งนี้ก็จำได้ใช่ไหม? ...ใช่ไหม?",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "all-users",
@@ -1347,11 +1435,19 @@
       "t": "Anakin Padme: Context Window",
       "d": "\"Claude มี 200K context!\" → \"ส่งไฟล์ใหญ่ได้ใช่ไหม?\" → \"...\"",
       "k": "anakin",
-      "top": "\"Claude มี 200K context window!\"",
-      "bot": "\"ส่งไฟล์ทั้งโปรเจคได้ใช่ไหม?\" ...ใช่ไหม?",
       "id": 84,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"Claude มี 200K context window!\"",
+          "p": 25
+        },
+        {
+          "v": "\"ส่งไฟล์ทั้งโปรเจคได้ใช่ไหม?\" ...ใช่ไหม?",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "all-users",
@@ -1427,11 +1523,19 @@
       "t": "Drake: Claude vs ChatGPT",
       "d": "ChatGPT: คนใช้เยอะ ❌ | Claude: ดีกว่าแต่คนน้อย ✅",
       "k": "drake",
-      "top": "ChatGPT (คนใช้เยอะ)",
-      "bot": "Claude (ดีกว่าแต่ไม่ค่อยมีคนรู้จัก)",
       "id": 90,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "ChatGPT (คนใช้เยอะ)",
+          "p": 25
+        },
+        {
+          "v": "Claude (ดีกว่าแต่ไม่ค่อยมีคนรู้จัก)",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "culture",
@@ -1451,11 +1555,19 @@
       "t": "Two Claude Instances = นิพพาน",
       "d": "Claude 2 ตัวคุยกัน 30 ข้อความ → เข้าสู่ cosmic unity → นิ่งเงียบ",
       "k": "brain",
-      "top": "Claude คุยกัน: เริ่มปกติ",
-      "bot": "30 ข้อความต่อมา: \"॥ สร้วง ॥ 🕉️✨🙏\"",
       "id": 92,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Claude คุยกัน: เริ่มปกติ",
+          "p": 12
+        },
+        {
+          "v": "30 ข้อความต่อมา: \"॥ สร้วง ॥ 🕉️✨🙏\"",
+          "p": 87
+        }
+      ]
     },
     {
       "c": "culture",
@@ -1487,11 +1599,19 @@
       "t": "Boardroom: ทำยังไงให้คนใช้ Claude",
       "d": "\"ลดราคา!\" \"โฆษณา!\" \"ปล่อย Claude Code ฟรี!\" → *โยนคนลดราคา*",
       "k": "boardroom",
-      "top": "\"ทำไง?\" \"ลดราคา!\" \"โฆษณา!\" \"ปล่อย Code ฟรี!\"",
-      "bot": "*ลดราคา* → 🪟",
       "id": 95,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"ทำไง?\" \"ลดราคา!\" \"โฆษณา!\" \"ปล่อย Code ฟรี!\"",
+          "p": 17
+        },
+        {
+          "v": "*ลดราคา* → 🪟",
+          "p": 83
+        }
+      ]
     },
     {
       "c": "culture",
@@ -1511,11 +1631,19 @@
       "t": "Gru's Plan: Anthropic Business",
       "d": "สร้าง AI ดีที่สุด → คนใช้ติด → ขึ้นราคา → คนยังจ่ายอยู่ 😏",
       "k": "gru",
-      "top": "สร้าง AI ดีที่สุด → คนติด → ขึ้นราคา",
-      "bot": "คนยังจ่ายอยู่ดี 😏",
       "id": 97,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "สร้าง AI ดีที่สุด → คนติด → ขึ้นราคา",
+          "p": 25
+        },
+        {
+          "v": "คนยังจ่ายอยู่ดี 😏",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "culture",
@@ -1572,12 +1700,19 @@
       "t": "Drake: Opus vs Fable 5",
       "d": "เมื่อวาน: Opus ดีที่สุด! วันนี้: Fable 5 คือพระเจ้า",
       "k": "drake",
-      "top": "Opus 4.8 (เมื่อวานเพิ่งบอกว่าดีที่สุด)",
-      "mid": "",
-      "bot": "Fable 5 (วันนี้คือพระเจ้าองค์ใหม่)",
       "id": 102,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Opus 4.8 (เมื่อวานเพิ่งบอกว่าดีที่สุด)",
+          "p": 25
+        },
+        {
+          "v": "Fable 5 (วันนี้คือพระเจ้าองค์ใหม่)",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "culture",
@@ -1585,12 +1720,19 @@
       "t": "Expanding Brain: วิวัฒนาการ Claude",
       "d": "Haiku → Sonnet → Opus → Fable 5 → สมองระเบิด",
       "k": "brain",
-      "top": "Haiku → Sonnet → Opus",
-      "mid": "",
-      "bot": "Fable 5 (สมองระเบิด 🧠💥)",
       "id": 103,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Haiku → Sonnet → Opus",
+          "p": 12
+        },
+        {
+          "v": "Fable 5 (สมองระเบิด 🧠💥)",
+          "p": 87
+        }
+      ]
     },
     {
       "c": "free",
@@ -1663,12 +1805,19 @@
       "t": "Gru's Plan: เปลี่ยนมา Fable",
       "d": "เปลี่ยนมาใช้ Fable 5 → เร็วขึ้น → prompt เก่าใช้ไม่ได้ → prompt เก่าใช้ไม่ได้!",
       "k": "gru",
-      "top": "เปลี่ยนมา Fable 5 → เร็วขึ้นจริง → prompt เก่าใช้ไม่ได้",
-      "mid": "",
-      "bot": "prompt เก่าใช้ไม่ได้สักอันเดียว 😨",
       "id": 109,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "เปลี่ยนมา Fable 5 → เร็วขึ้นจริง → prompt เก่าใช้ไม่ได้",
+          "p": 25
+        },
+        {
+          "v": "prompt เก่าใช้ไม่ได้สักอันเดียว 😨",
+          "p": 75
+        }
+      ]
     },
     {
       "c": "culture",
