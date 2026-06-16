@@ -343,12 +343,23 @@
       "t": "Panik: Claude ฟรีหมด Quota",
       "d": "ตอบดีมาก → สบาย → \"You've reached your limit\" → PANIK!",
       "k": "panik",
-      "top": "Claude ตอบได้เทพมาก!",
-      "mid": "ฟรีก็พอแล้ว ไม่ต้องจ่ายเงิน",
-      "bot": "\"You've reached your message limit\"",
       "id": 4,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Claude ตอบได้เทพมาก!",
+          "p": 16
+        },
+        {
+          "v": "ฟรีก็พอแล้ว ไม่ต้องจ่ายเงิน",
+          "p": 50
+        },
+        {
+          "v": "\"You've reached your message limit\"",
+          "p": 84
+        }
+      ]
     },
     {
       "c": "free",
@@ -452,11 +463,19 @@
       "t": "Monkey Puppet: เห็นราคา Pro",
       "d": "เปิดดูราคา Pro $20 แล้วรีบหันหน้าหนี",
       "k": "monkey",
-      "top": "เปิดดูราคา Claude Pro",
-      "bot": "$20/เดือน... *หันหนี*",
       "id": 13,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "เปิดดูราคา Claude Pro",
+          "p": 12
+        },
+        {
+          "v": "$20/เดือน... *หันหนี*",
+          "p": 24
+        }
+      ]
     },
     {
       "c": "free",
@@ -548,12 +567,27 @@
       "t": "Clown Makeup: Pro ยัง Limit",
       "d": "จ่าย $20 คิดว่าไม่จำกัด → Extended Thinking กิน 30x → อัพ Max",
       "k": "clown",
-      "top": "จ่าย $20 คิดว่าไม่จำกัด",
-      "mid": "Extended Thinking กิน token 30x",
-      "bot": "อัพ Max $100 อีกแล้ว",
       "id": 21,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "จ่าย $20 คิดว่าไม่จำกัด",
+          "p": 12
+        },
+        {
+          "v": "Extended Thinking กิน token 30x",
+          "p": 37
+        },
+        {
+          "v": "อัพ Max $100 อีกแล้ว",
+          "p": 62
+        },
+        {
+          "v": "ยังติด limit อยู่ดี 🤡",
+          "p": 87
+        }
+      ]
     },
     {
       "c": "pro",
@@ -585,11 +619,19 @@
       "t": "Two Buttons: Pro vs Max",
       "d": "Pro $20 ติด limit ทุกวัน หรือ Max $100 ค่ากาแฟหาย?",
       "k": "buttons",
-      "top": "Pro $20 (ติด limit ทุกวัน)",
-      "bot": "Max $100 (ค่ากาแฟหายไป)",
       "id": 24,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Pro $20 (ติด limit ทุกวัน)",
+          "p": 22
+        },
+        {
+          "v": "Max $100 (ค่ากาแฟหายไป)",
+          "p": 38
+        }
+      ]
     },
     {
       "c": "pro",
@@ -1317,11 +1359,19 @@
       "t": "Monkey: เมื่อ Claude Hallucinate",
       "d": "Claude อ้าง paper ที่ไม่มีอยู่จริง — หันหน้าหนีเงียบๆ",
       "k": "monkey",
-      "top": "Claude อ้าง paper ที่ไม่มีอยู่จริง",
-      "bot": "*มองหนี*",
       "id": 85,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Claude อ้าง paper ที่ไม่มีอยู่จริง",
+          "p": 12
+        },
+        {
+          "v": "*มองหนี*",
+          "p": 24
+        }
+      ]
     },
     {
       "c": "culture",

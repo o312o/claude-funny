@@ -140,6 +140,12 @@ const CAT_META = {
 const BC = {free:'b-free',pro:'b-pro',code:'b-code','all-users':'b-all',culture:'b-culture'};
 
 function memeTexts(m) {
+  // txt array = custom % positioning per panel [{v:'text', p:16}]
+  if (m.txt && m.txt.length) {
+    return m.txt.map(({v, p}) =>
+      `<div class="meme-text s" style="top:${p}%;transform:translateY(-50%)">${v}</div>`
+    ).join('');
+  }
   let h = '';
   if (m.top) h += `<div class="meme-text top s">${m.top}</div>`;
   if (m.mid) h += `<div class="meme-text mid s">${m.mid}</div>`;
