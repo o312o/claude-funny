@@ -1,2049 +1,967 @@
 {
   "meta": {
-    "total": 110,
+    "total": 100,
     "lastUpdated": "2026-06-16",
-    "categories": [
-      "free",
-      "pro",
-      "code",
-      "all-users",
-      "culture"
-    ]
+    "categories": ["free","pro","code","all-users","culture"]
   },
   "templates": {
-    "drake": [
-      "181913649",
-      "https://i.imgflip.com/30b1gx.jpg"
-    ],
-    "buttons": [
-      "87743020",
-      "https://i.imgflip.com/1g8my4.jpg"
-    ],
-    "bf": [
-      "112126428",
-      "https://i.imgflip.com/1ur9b0.jpg"
-    ],
-    "uno": [
-      "217743513",
-      "https://i.imgflip.com/3lmzyx.jpg"
-    ],
-    "exit": [
-      "124822590",
-      "https://i.imgflip.com/22bdq6.jpg"
-    ],
-    "bernie": [
-      "222403160",
-      "https://i.imgflip.com/3oevdk.jpg"
-    ],
-    "balloon": [
-      "131087935",
-      "https://i.imgflip.com/261o3j.jpg"
-    ],
-    "always": [
-      "252600902",
-      "https://i.imgflip.com/46e43q.png"
-    ],
-    "skeleton": [
-      "4087833",
-      "https://i.imgflip.com/2fm6x.jpg"
-    ],
-    "anakin": [
-      "322841258",
-      "https://i.imgflip.com/5c7lwq.png"
-    ],
-    "handshake": [
-      "135256802",
-      "https://i.imgflip.com/28j0te.jpg"
-    ],
-    "gru": [
-      "131940431",
-      "https://i.imgflip.com/26jxvz.jpg"
-    ],
-    "disaster": [
-      "97984",
-      "https://i.imgflip.com/23ls.jpg"
-    ],
-    "pablo": [
-      "80707627",
-      "https://i.imgflip.com/1c1uej.jpg"
-    ],
-    "everywhere": [
-      "91538330",
-      "https://i.imgflip.com/1ihzfe.jpg"
-    ],
-    "change": [
-      "129242436",
-      "https://i.imgflip.com/24y43o.jpg"
-    ],
-    "cat": [
-      "188390779",
-      "https://i.imgflip.com/345v97.jpg"
-    ],
-    "batman": [
-      "438680",
-      "https://i.imgflip.com/9ehk.jpg"
-    ],
-    "spongebob": [
-      "102156234",
-      "https://i.imgflip.com/1otk96.jpg"
-    ],
-    "trade": [
-      "309868304",
-      "https://i.imgflip.com/54hjww.jpg"
-    ],
-    "buff": [
-      "247375501",
-      "https://i.imgflip.com/43a45p.png"
-    ],
-    "aliens": [
-      "101470",
-      "https://i.imgflip.com/26am.jpg"
-    ],
-    "brain": [
-      "93895088",
-      "https://i.imgflip.com/1jwhww.jpg"
-    ],
-    "yall": [
-      "124055727",
-      "https://i.imgflip.com/21uy0f.jpg"
-    ],
-    "tuxedo": [
-      "178591752",
-      "https://i.imgflip.com/2ybua0.png"
-    ],
-    "simply": [
-      "61579",
-      "https://i.imgflip.com/1bij.jpg"
-    ],
-    "fine": [
-      "55311130",
-      "https://i.imgflip.com/wxica.jpg"
-    ],
-    "bike": [
-      "79132341",
-      "https://i.imgflip.com/1b42wl.jpg"
-    ],
-    "drowning": [
-      "252758727",
-      "https://i.imgflip.com/46hhvr.jpg"
-    ],
-    "same": [
-      "180190441",
-      "https://i.imgflip.com/2za3u1.jpg"
-    ],
-    "pigeon": [
-      "100777631",
-      "https://i.imgflip.com/1o00in.jpg"
-    ],
-    "paid": [
-      "177682295",
-      "https://i.imgflip.com/2xscjb.png"
-    ],
-    "trophy": [
-      "3218037",
-      "https://i.imgflip.com/1wz1x.jpg"
-    ],
-    "safe": [
-      "161865971",
-      "https://i.imgflip.com/2odckz.jpg"
-    ],
-    "megamind": [
-      "370867422",
-      "https://i.imgflip.com/64sz4u.png"
-    ],
-    "monkey": [
-      "148909805",
-      "https://i.imgflip.com/2gnnjh.jpg"
-    ],
-    "oprah": [
-      "28251713",
-      "https://i.imgflip.com/gtj5t.jpg"
-    ],
-    "clown": [
-      "195515965",
-      "https://i.imgflip.com/38el31.jpg"
-    ],
-    "squidward": [
-      "67452763",
-      "https://i.imgflip.com/145qvv.jpg"
-    ],
-    "thinking": [
-      "110163934",
-      "https://i.imgflip.com/1tl71a.jpg"
-    ],
-    "harold": [
-      "27813981",
-      "https://i.imgflip.com/gk5el.jpg"
-    ],
-    "boardroom": [
-      "1035805",
-      "https://i.imgflip.com/m78d.jpg"
-    ],
-    "panik": [
-      "226297822",
-      "https://i.imgflip.com/3qqcim.png"
-    ],
-    "kermit": [
-      "84341851",
-      "https://i.imgflip.com/1e7ql7.jpg"
-    ],
-    "roll": [
-      "89370399",
-      "https://i.imgflip.com/1h7in3.jpg"
-    ],
-    "pikachu": [
-      "155067746",
-      "https://i.imgflip.com/2kbn1e.jpg"
-    ],
-    "sleeping": [
-      "99683372",
-      "https://i.imgflip.com/640631.jpg"
-    ],
-    "scroll": [
-      "123999232",
-      "https://i.imgflip.com/21tqf4.jpg"
-    ],
-    "disappointed": [
-      "50421420",
-      "https://i.imgflip.com/u0pf0.jpg"
-    ],
-    "captain": [
-      "29562797",
-      "https://i.imgflip.com/hlmst.jpg"
-    ],
-    "rock": [
-      "21735",
-      "https://i.imgflip.com/grr.jpg"
-    ],
-    "chopper": [
-      "134797956",
-      "https://i.imgflip.com/2896ro.jpg"
-    ],
-    "neverland": [
-      "6235864",
-      "https://i.imgflip.com/3pnmg.jpg"
-    ],
-    "fry": [
-      "64159",
-      "https://i.imgflip.com/1bgw.jpg"
-    ],
-    "flex": [
-      "166969924",
-      "https://i.imgflip.com/2reqtg.png"
-    ],
-    "domino": [
-      "162372564",
-      "https://i.imgflip.com/2oo7h0.jpg"
-    ],
-    "headache": [
-      "119215120",
-      "https://i.imgflip.com/1yz6z4.jpg"
-    ],
-    "spider": [
-      "206151308",
-      "https://i.imgflip.com/3eqjd8.jpg"
-    ],
-    "soldier": [
-      "171305372",
-      "https://i.imgflip.com/2tzo2k.jpg"
-    ],
-    "bus": [
-      "354700819",
-      "https://i.imgflip.com/5v6gwj.jpg"
-    ],
-    "dragon": [
-      "187102311",
-      "https://i.imgflip.com/33e92f.jpg"
-    ],
-    "scooby": [
-      "145139900",
-      "https://i.imgflip.com/2eeunw.jpg"
-    ],
-    "leo": [
-      "259237855",
-      "https://i.imgflip.com/4acd7j.png"
-    ],
-    "gus": [
-      "342785297",
-      "https://i.imgflip.com/5o32tt.png"
-    ],
-    "paths": [
-      "309668311",
-      "https://i.imgflip.com/54d9lj.png"
-    ],
-    "hiding": [
-      "224514655",
-      "https://i.imgflip.com/3po4m7.jpg"
-    ],
-    "cheers": [
-      "5496396",
-      "https://i.imgflip.com/39t1o.jpg"
-    ],
-    "homies": [
-      "216523697",
-      "https://i.imgflip.com/3kwur5.jpg"
-    ],
-    "grave": [
-      "221578498",
-      "https://i.imgflip.com/3nx72a.png"
-    ],
-    "nut": [
-      "119139145",
-      "https://i.imgflip.com/1yxkcp.jpg"
-    ],
-    "cinema": [
-      "505705955",
-      "https://i.imgflip.com/8d317n.png"
-    ],
-    "communist": [
-      "249257686",
-      "https://i.imgflip.com/44eggm.png"
-    ]
+    "drake":      ["181913649","https://i.imgflip.com/30b1gx.jpg"],
+    "buttons":    ["87743020", "https://i.imgflip.com/1g8my4.jpg"],
+    "bf":         ["112126428","https://i.imgflip.com/1ur9b0.jpg"],
+    "uno":        ["217743513","https://i.imgflip.com/3lmzyx.jpg"],
+    "exit":       ["124822590","https://i.imgflip.com/22bdq6.jpg"],
+    "bernie":     ["222403160","https://i.imgflip.com/3oevdk.jpg"],
+    "balloon":    ["131087935","https://i.imgflip.com/261o3j.jpg"],
+    "always":     ["252600902","https://i.imgflip.com/46e43q.png"],
+    "skeleton":   ["4087833",  "https://i.imgflip.com/2fm6x.jpg"],
+    "anakin":     ["322841258","https://i.imgflip.com/5c7lwq.png"],
+    "handshake":  ["135256802","https://i.imgflip.com/28j0te.jpg"],
+    "gru":        ["131940431","https://i.imgflip.com/26jxvz.jpg"],
+    "disaster":   ["97984",    "https://i.imgflip.com/23ls.jpg"],
+    "pablo":      ["80707627", "https://i.imgflip.com/1c1uej.jpg"],
+    "everywhere": ["91538330", "https://i.imgflip.com/1ihzfe.jpg"],
+    "change":     ["129242436","https://i.imgflip.com/24y43o.jpg"],
+    "cat":        ["188390779","https://i.imgflip.com/345v97.jpg"],
+    "batman":     ["438680",   "https://i.imgflip.com/9ehk.jpg"],
+    "spongebob":  ["102156234","https://i.imgflip.com/1otk96.jpg"],
+    "trade":      ["309868304","https://i.imgflip.com/54hjww.jpg"],
+    "buff":       ["247375501","https://i.imgflip.com/43a45p.png"],
+    "aliens":     ["101470",   "https://i.imgflip.com/26am.jpg"],
+    "brain":      ["93895088", "https://i.imgflip.com/1jwhww.jpg"],
+    "yall":       ["124055727","https://i.imgflip.com/21uy0f.jpg"],
+    "tuxedo":     ["178591752","https://i.imgflip.com/2ybua0.png"],
+    "simply":     ["61579",    "https://i.imgflip.com/1bij.jpg"],
+    "fine":       ["55311130", "https://i.imgflip.com/wxica.jpg"],
+    "bike":       ["79132341", "https://i.imgflip.com/1b42wl.jpg"],
+    "same":       ["180190441","https://i.imgflip.com/2za3u1.jpg"],
+    "pigeon":     ["100777631","https://i.imgflip.com/1o00in.jpg"],
+    "paid":       ["177682295","https://i.imgflip.com/2xscjb.png"],
+    "trophy":     ["3218037",  "https://i.imgflip.com/1wz1x.jpg"],
+    "safe":       ["161865971","https://i.imgflip.com/2odckz.jpg"],
+    "megamind":   ["370867422","https://i.imgflip.com/64sz4u.png"],
+    "monkey":     ["148909805","https://i.imgflip.com/2gnnjh.jpg"],
+    "oprah":      ["28251713", "https://i.imgflip.com/gtj5t.jpg"],
+    "clown":      ["195515965","https://i.imgflip.com/38el31.jpg"],
+    "squidward":  ["67452763", "https://i.imgflip.com/145qvv.jpg"],
+    "thinking":   ["110163934","https://i.imgflip.com/1tl71a.jpg"],
+    "harold":     ["27813981", "https://i.imgflip.com/gk5el.jpg"],
+    "boardroom":  ["1035805",  "https://i.imgflip.com/m78d.jpg"],
+    "panik":      ["226297822","https://i.imgflip.com/3qqcim.png"],
+    "kermit":     ["84341851", "https://i.imgflip.com/1e7ql7.jpg"],
+    "roll":       ["89370399", "https://i.imgflip.com/1h7in3.jpg"],
+    "pikachu":    ["155067746","https://i.imgflip.com/2kbn1e.jpg"],
+    "sleeping":   ["99683372", "https://i.imgflip.com/640631.jpg"],
+    "scroll":     ["123999232","https://i.imgflip.com/21tqf4.jpg"],
+    "captain":    ["29562797", "https://i.imgflip.com/hlmst.jpg"],
+    "rock":       ["21735",    "https://i.imgflip.com/grr.jpg"],
+    "chopper":    ["134797956","https://i.imgflip.com/2896ro.jpg"],
+    "neverland":  ["6235864",  "https://i.imgflip.com/3pnmg.jpg"],
+    "fry":        ["64159",    "https://i.imgflip.com/1bgw.jpg"],
+    "flex":       ["166969924","https://i.imgflip.com/2reqtg.png"],
+    "domino":     ["162372564","https://i.imgflip.com/2oo7h0.jpg"],
+    "headache":   ["119215120","https://i.imgflip.com/1yz6z4.jpg"],
+    "spider":     ["206151308","https://i.imgflip.com/3eqjd8.jpg"],
+    "soldier":    ["171305372","https://i.imgflip.com/2tzo2k.jpg"],
+    "bus":        ["354700819","https://i.imgflip.com/5v6gwj.jpg"],
+    "dragon":     ["187102311","https://i.imgflip.com/33e92f.jpg"],
+    "scooby":     ["145139900","https://i.imgflip.com/2eeunw.jpg"],
+    "leo":        ["259237855","https://i.imgflip.com/4acd7j.png"],
+    "gus":        ["342785297","https://i.imgflip.com/5o32tt.png"],
+    "paths":      ["309668311","https://i.imgflip.com/54d9lj.png"],
+    "hiding":     ["224514655","https://i.imgflip.com/3po4m7.jpg"],
+    "cheers":     ["5496396",  "https://i.imgflip.com/39t1o.jpg"],
+    "homies":     ["216523697","https://i.imgflip.com/3kwur5.jpg"],
+    "grave":      ["221578498","https://i.imgflip.com/3nx72a.png"],
+    "nut":        ["119139145","https://i.imgflip.com/1yxkcp.jpg"],
+    "cinema":     ["505705955","https://i.imgflip.com/8d317n.png"],
+    "communist":  ["249257686","https://i.imgflip.com/44eggm.png"],
+    "disappointed":["50421420","https://i.imgflip.com/u0pf0.jpg"],
+    "spongebob":  ["102156234","https://i.imgflip.com/1otk96.jpg"]
   },
   "memes": [
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Rate Limit ทุก 3 ข้อความ",
-      "d": "พิมพ์ไป 3 ข้อความก็โดน rate limit — \"Please wait a few hours\"",
-      "k": "skeleton",
-      "top": "ผู้ใช้ Claude ฟรี รอ rate limit หมด",
-      "bot": "ยังอยู่นะ... อีก 3 ชม. 59 นาที",
-      "id": 1,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":1,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Skeleton: รอ Rate Limit",
+      "d":"พิมพ์ไป 3 ข้อความก็โดน rate limit — รอ 4 ชั่วโมงอย่างเหน็ดเหนื่อย",
+      "k":"skeleton",
+      "top":"ผู้ใช้ Claude ฟรี รอ rate limit หมด",
+      "bot":"ยังอยู่นะ... อีก 3 ชม. 59 นาที"
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Squidward มอง Pro ใช้ Opus",
-      "d": "ได้แค่ Sonnet แต่เห็นคนอื่นใช้ Opus แล้วอิจฉา",
-      "k": "squidward",
-      "top": "User ฟรี มองคน Pro ใช้ Opus",
-      "bot": "*ร้องไห้กับ Sonnet*",
-      "id": 2,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":2,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Squidward: อิจฉา Pro User",
+      "d":"ได้แค่ Sonnet แต่เห็นคนอื่นใช้ Opus แล้วจุก",
+      "k":"squidward",
+      "top":"User ฟรี มองคน Pro ใช้ Claude Opus",
+      "bot":"*กลับมานั่งร้องไห้กับ Sonnet*"
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "UNO Draw 25: อัพ Pro ไหม?",
-      "d": "จ่าย $20 หรือนั่งรอ 4 ชม.? ทุกคนเลือกรอ",
-      "k": "uno",
-      "top": "จ่าย $20/เดือน ใช้ Claude ไม่ติด limit",
-      "bot": "รอ 4 ชม. ทุกรอบ",
-      "id": 3,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Panik: Claude ฟรีหมด Quota",
-      "d": "ตอบดีมาก → สบาย → \"You've reached your limit\" → PANIK!",
-      "k": "panik",
-      "id": 4,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude ตอบได้เทพมาก!",
-          "p": 16,
-          "l": 0,
-          "w": 48
-        },
-        {
-          "v": "ฟรีก็พอแล้ว ไม่ต้องจ่ายเงิน",
-          "p": 50,
-          "l": 0,
-          "w": 48
-        },
-        {
-          "v": "\"You've reached your message limit\"",
-          "p": 84,
-          "l": 0,
-          "w": 48
-        }
+      "id":3,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"UNO: Draw 25 หรือจ่าย $20?",
+      "d":"จ่าย $20 หรือนั่งรอ 4 ชม.? ทุกคนเลือกรอ",
+      "k":"uno",
+      "txt":[
+        {"v":"จ่าย $20/เดือน ใช้ Claude Pro ไม่ติด limit","p":25},
+        {"v":"รอ 4 ชม. ทุกรอบ","p":75}
       ]
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Sad Pablo รอ Limit",
-      "d": "นั่งรอ rate limit หมดอย่างเหงาๆ 3 ชม. 42 นาที",
-      "k": "pablo",
-      "top": "User ฟรี รอ rate limit หมด",
-      "bot": "เหลืออีก 3 ชม. 42 นาที...",
-      "id": 5,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "One Does Not Simply ใช้ฟรี",
-      "d": "ไม่มีทางใช้ Claude ฟรีแล้วไม่ติด rate limit",
-      "k": "simply",
-      "top": "One does not simply",
-      "bot": "ใช้ Claude ฟรี โดยไม่ติด rate limit",
-      "id": 6,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Y'all Got Any More Tokens?",
-      "d": "User ฟรี หลังใช้ไป 5 ข้อความ ขอ token เพิ่มหน่อย",
-      "k": "yall",
-      "top": "Y'all got any more of them",
-      "bot": "Claude tokens?",
-      "id": 7,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Batman Slap: \"ฟรีก็พอ\"",
-      "d": "\"ฟรีก็พอแล้ว—\" *ตบ* \"ไปจ่ายเงิน!\"",
-      "k": "batman",
-      "id": 8,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"ฟรีก็เพียงพอแล้ว ไม่ต้อง—\"",
-          "p": 13,
-          "l": 2,
-          "w": 42
-        },
-        {
-          "v": "\"ไปจ่ายเงินซะ!\"",
-          "p": 9,
-          "l": 50,
-          "w": 48
-        }
+      "id":4,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Panik: Free หมด Quota",
+      "d":"Claude ตอบดีมาก → สบายใจ → \"You've reached your limit\" → PANIK!",
+      "k":"panik",
+      "txt":[
+        {"v":"Claude ตอบได้เทพมาก!","p":16,"l":0,"w":48},
+        {"v":"ฟรีก็พอแล้ว ไม่ต้องจ่ายเงิน","p":50,"l":0,"w":48},
+        {"v":"\"You've reached your message limit\"","p":84,"l":0,"w":48}
       ]
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Disaster Girl: Quota หมด",
-      "d": "ยิ้มหวานเมื่อ Claude บอก \"message limit reached\" กลางงาน",
-      "k": "disaster",
-      "top": "ส่งงานพรุ่งนี้เช้า",
-      "bot": "Claude: \"Message limit reached\" 🙂🔥",
-      "id": 9,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":5,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Sad Pablo: รอ Limit",
+      "d":"นั่งรอ rate limit หมดอย่างเหงาๆ 3 ชม. 42 นาที",
+      "k":"pablo",
+      "top":"User ฟรี รอ rate limit หมด",
+      "bot":"เหลืออีก 3 ชม. 42 นาที..."
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Sleeping Shaq: Feature ที่ฟรีไม่ได้",
-      "d": "Extended Thinking? Artifacts? Projects? ฟรีไม่มีนะ หลับต่อ",
-      "k": "sleeping",
-      "id": 10,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude มี Extended Thinking, Projects, Artifacts",
-          "p": 25
-        },
-        {
-          "v": "User ฟรี: *หลับต่อ*",
-          "p": 75
-        }
+      "id":6,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"One Does Not Simply: ใช้ฟรี",
+      "d":"ไม่มีทางใช้ Claude ฟรีแล้วไม่ติด rate limit",
+      "k":"simply",
+      "top":"One does not simply",
+      "bot":"ใช้ Claude ฟรี โดยไม่ติด rate limit"
+    },
+    {
+      "id":7,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Y'all Got Any More Tokens?",
+      "d":"User ฟรี หลังใช้ไป 5 ข้อความ ขอ token เพิ่มหน่อย",
+      "k":"yall",
+      "top":"Y'all got any more of them",
+      "bot":"Claude tokens?"
+    },
+    {
+      "id":8,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Batman Slap: \"ฟรีก็พอ\"",
+      "d":"\"ฟรีก็พอแล้ว—\" *ตบ* \"ไปจ่ายเงิน!\"",
+      "k":"batman",
+      "txt":[
+        {"v":"\"ฟรีก็เพียงพอแล้ว ไม่ต้อง—\"","p":13,"l":2,"w":42},
+        {"v":"\"ไปจ่ายเงินซะ!\"","p":9,"l":50,"w":48}
       ]
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Futurama Fry: Sonnet ดีจริงหรือ?",
-      "d": "ไม่แน่ใจว่า Sonnet ดีจริง หรือแค่ไม่เคยลอง Opus",
-      "k": "fry",
-      "top": "ไม่แน่ใจว่า Sonnet ดีจริง",
-      "bot": "หรือแค่ไม่เคยลอง Opus",
-      "id": 11,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":9,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Disaster Girl: Quota หมดกลางงาน",
+      "d":"ยิ้มหวานเมื่อ Claude บอก \"message limit\" กลางงานด่วน",
+      "k":"disaster",
+      "top":"ส่งงานพรุ่งนี้เช้า",
+      "bot":"Claude: \"Message limit reached\" 🙂🔥"
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Aliens: ทำไม Limit เร็วจัง",
-      "d": "\"ใช้ไป 3 ข้อความก็ limit แล้ว\" — \"Aliens\"",
-      "k": "aliens",
-      "top": "ใช้ไป 3 ข้อความก็ limit?",
-      "bot": "Extended Thinking",
-      "id": 12,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Monkey Puppet: เห็นราคา Pro",
-      "d": "เปิดดูราคา Pro $20 แล้วรีบหันหน้าหนี",
-      "k": "monkey",
-      "id": 13,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "เปิดดูราคา Claude Pro",
-          "p": 12
-        },
-        {
-          "v": "$20/เดือน... *หันหนี*",
-          "p": 24
-        }
+      "id":10,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Sleeping: Feature ที่ฟรีไม่ได้",
+      "d":"Extended Thinking? Artifacts? Projects? ฟรีไม่มีนะ หลับต่อ",
+      "k":"sleeping",
+      "txt":[
+        {"v":"Claude มี Extended Thinking, Projects, Artifacts, Opus","p":25},
+        {"v":"User ฟรี: *หลับต่อ*","p":75}
       ]
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Scroll of Truth: ฟรีไม่พอ",
-      "d": "\"ถ้าใช้จริงจัง ฟรีไม่พอหรอก\" — *โยนทิ้ง*",
-      "k": "scroll",
-      "top": "\"ถ้าใช้จริงจัง ฟรีไม่พอหรอก\"",
-      "bot": "*Nyehhh!*",
-      "id": 14,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":11,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Futurama Fry: Sonnet ดีจริงหรือ?",
+      "d":"ไม่แน่ใจว่า Sonnet ดีจริง หรือแค่ไม่เคยลอง Opus",
+      "k":"fry",
+      "top":"ไม่แน่ใจว่า Sonnet ดีจริง",
+      "bot":"หรือแค่ไม่เคยลอง Opus เลย"
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Marked Safe: ผ่านวันไม่ติด Limit",
-      "d": "วันนี้ไม่ติด rate limit — เกิดขึ้นปีละครั้ง",
-      "k": "safe",
-      "top": "Marked safe from",
-      "bot": "Claude rate limit วันนี้",
-      "id": 15,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":12,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Ancient Aliens: Limit เร็วจัง",
+      "d":"\"ใช้ไป 3 ข้อความก็ limit แล้ว\" — Ancient Aliens guy",
+      "k":"aliens",
+      "top":"ใช้ Claude ฟรี 3 ข้อความก็ limit แล้ว?",
+      "bot":"Extended Thinking"
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Megamind: ไม่มี Opus?",
-      "d": "ไม่มี Opus เหรอ? มาใช้ Sonnet สิ... 🥲",
-      "k": "megamind",
-      "top": "ไม่มี Opus?",
-      "bot": "🥲",
-      "id": 16,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Trophy: ผลงานจาก Claude ฟรี",
-      "d": "\"นี่คือโปรเจคที่ทำจาก Claude ฟรี\" — ว่างเปล่า",
-      "k": "trophy",
-      "top": "นี่คือโปรเจคที่เสร็จสมบูรณ์",
-      "bot": "จาก Claude ฟรี (ติด limit ก่อน)",
-      "id": 17,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "You Guys Getting Paid?",
-      "d": "คนอื่นใช้ Claude ฟรี 10 ข้อความ? ฉันได้แค่ 3!",
-      "k": "paid",
-      "top": "พวกแกใช้ Claude ฟรีได้ 10 ข้อความ?",
-      "bot": "ฉันได้แค่ 3! 😤",
-      "id": 18,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Nut Button: กด Upgrade",
-      "d": "ปุ่ม Upgrade to Pro ส่องแสงเรียก แต่กระเป๋าว่าง",
-      "k": "nut",
-      "top": "กระเป๋าตังค์: ว่างเปล่า",
-      "bot": "ปุ่ม \"Upgrade to Pro\": ✨",
-      "id": 19,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Disappointed: \"Free Tier Enough\"",
-      "d": "Anthropic: \"Free tier ใช้ได้เพียงพอ\" — ผู้ใช้: 😐",
-      "k": "disappointed",
-      "top": "Anthropic: \"Free tier เพียงพอสำหรับผู้ใช้ทั่วไป\"",
-      "bot": "*ติด limit ข้อความที่ 3*",
-      "id": 20,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Clown Makeup: Pro ยัง Limit",
-      "d": "จ่าย $20 คิดว่าไม่จำกัด → Extended Thinking กิน 30x → อัพ Max",
-      "k": "clown",
-      "id": 21,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "จ่าย $20 คิดว่าไม่จำกัด",
-          "p": 12
-        },
-        {
-          "v": "Extended Thinking กิน token 30x",
-          "p": 37
-        },
-        {
-          "v": "อัพ Max $100 อีกแล้ว",
-          "p": 62
-        },
-        {
-          "v": "ยังติด limit อยู่ดี 🤡",
-          "p": 87
-        }
+      "id":13,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Monkey Puppet: เห็นราคา Pro",
+      "d":"เปิดดูราคา Pro $20 แล้วรีบหันหน้าหนีทันที",
+      "k":"monkey",
+      "txt":[
+        {"v":"เปิดดูราคา Claude Pro","p":12},
+        {"v":"$20/เดือน... *หันหนี*","p":24}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Tuxedo Pooh: Free vs Pro",
-      "d": "Free: รอ 4 ชม. | Pro: รอ 40 นาที (แต่ดูหรูกว่า)",
-      "k": "tuxedo",
-      "id": 22,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "รอ Rate Limit 4 ชม. (Free)",
-          "p": 25,
-          "l": 38,
-          "w": 60
-        },
-        {
-          "v": "รอ Rate Limit 40 นาที (Pro $20)",
-          "p": 75,
-          "l": 38,
-          "w": 60
-        }
+      "id":14,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Scroll of Truth: ฟรีไม่พอ",
+      "d":"\"ถ้าใช้จริงจัง ฟรีไม่พอหรอก\" — *โยนทิ้ง*",
+      "k":"scroll",
+      "top":"\"ถ้าใช้จริงจัง ฟรีไม่พอหรอก\"",
+      "bot":"*โยนทิ้ง* Nyehhh!"
+    },
+    {
+      "id":15,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Marked Safe: ผ่านวันไม่ติด Limit",
+      "d":"วันนี้ไม่ติด rate limit — เกิดขึ้นปีละครั้ง",
+      "k":"safe",
+      "top":"Marked safe from",
+      "bot":"Claude rate limit วันนี้"
+    },
+    {
+      "id":16,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Megamind: ไม่มี Opus?",
+      "d":"ไม่มี Opus เหรอ? มาใช้ Sonnet สิ... 🥲",
+      "k":"megamind",
+      "top":"ไม่มี Opus สำหรับ user ฟรี?",
+      "bot":"มาใช้ Sonnet ก็แล้วกัน 🥲"
+    },
+    {
+      "id":17,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Trophy: ผลงานจาก Claude ฟรี",
+      "d":"นี่คือโปรเจคที่ทำจาก Claude ฟรี — ว่างเปล่า",
+      "k":"trophy",
+      "top":"โปรเจคที่เสร็จสมบูรณ์จาก Claude ฟรี",
+      "bot":"(ติด limit ก่อนเสร็จจริงๆ)"
+    },
+    {
+      "id":18,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"You Guys Getting Paid?",
+      "d":"คนอื่นใช้ Claude ฟรีได้ 10 ข้อความ ฉันได้แค่ 3!",
+      "k":"paid",
+      "top":"พวกแกใช้ Claude ฟรีได้ 10 ข้อความ?",
+      "bot":"ฉันได้แค่ 3 ข้อความ! 😤"
+    },
+    {
+      "id":19,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Nut Button: ปุ่ม Upgrade ส่องแสง",
+      "d":"กระเป๋าว่าง แต่ปุ่ม Upgrade to Pro ส่องแสงสวย",
+      "k":"nut",
+      "top":"กระเป๋าตังค์: ว่างเปล่า",
+      "bot":"ปุ่ม \"Upgrade to Pro\": ✨✨✨"
+    },
+    {
+      "id":20,"c":"free","b":"สายฟรี","source":"original","addedDate":"2026-06-16",
+      "t":"Disappointed: Free Tier Enough",
+      "d":"Anthropic: \"Free tier เพียงพอ\" — ผู้ใช้ติด limit ข้อความที่ 3",
+      "k":"disappointed",
+      "top":"Anthropic: \"Free tier เพียงพอสำหรับผู้ใช้ทั่วไป\"",
+      "bot":"*ติด limit ข้อความที่ 3*"
+    },
+    {
+      "id":21,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Clown Makeup: Pro ยัง Limit",
+      "d":"จ่าย $20 คิดว่าไม่จำกัด → Extended Thinking กิน 30x → อัพ Max → ยังติด limit",
+      "k":"clown",
+      "txt":[
+        {"v":"จ่าย $20 คิดว่าไม่จำกัดแล้ว","p":12,"l":0,"w":50},
+        {"v":"Extended Thinking กิน token 30x","p":37,"l":0,"w":50},
+        {"v":"อัพ Max $100 อีกแล้ว","p":62,"l":0,"w":50},
+        {"v":"ยังติด limit อยู่ดี 🤡","p":87,"l":0,"w":50}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Trade Offer: Anthropic Deal",
-      "d": "I receive: Opus + Thinking | You receive: $20-$100 + วิญญาณ",
-      "k": "trade",
-      "id": 23,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude Opus + Extended Thinking",
-          "p": 38,
-          "l": 2,
-          "w": 44
-        },
-        {
-          "v": "$20-$100/เดือน + วิญญาณ",
-          "p": 38,
-          "l": 54,
-          "w": 44
-        }
+      "id":22,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Tuxedo Pooh: Free vs Pro",
+      "d":"Free: รอ 4 ชม. | Pro: รอ 40 นาที (แต่ดูหรูกว่า)",
+      "k":"tuxedo",
+      "txt":[
+        {"v":"รอ Rate Limit 4 ชั่วโมง (Free)","p":25,"l":38,"w":60},
+        {"v":"รอ Rate Limit 40 นาที (Pro $20)","p":75,"l":38,"w":60}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Two Buttons: Pro vs Max",
-      "d": "Pro $20 ติด limit ทุกวัน หรือ Max $100 ค่ากาแฟหาย?",
-      "k": "buttons",
-      "id": 24,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Pro $20 (ติด limit ทุกวัน)",
-          "p": 22
-        },
-        {
-          "v": "Max $100 (ค่ากาแฟหายไป)",
-          "p": 38
-        }
+      "id":23,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Trade Offer: Anthropic Deal",
+      "d":"I receive: Opus + Extended Thinking | You receive: $20-$100 + วิญญาณ",
+      "k":"trade",
+      "txt":[
+        {"v":"Claude Opus + Extended Thinking","p":38,"l":2,"w":44},
+        {"v":"$20-$100/เดือน + วิญญาณ","p":38,"l":54,"w":44}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Hide Pain Harold: API Bill",
-      "d": "ยิ้มทั้งเจ็บเมื่อเห็น API bill ปลายเดือน $847",
-      "k": "harold",
-      "top": "เมื่อเปิดดู API bill ปลายเดือน",
-      "bot": "$847.32 — \"Everything is fine 🙂\"",
-      "id": 25,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Headache: Token Pricing",
-      "d": "Input tokens, output tokens, thinking tokens, cache tokens...",
-      "k": "headache",
-      "top": "Claude token pricing",
-      "bot": "Input × $3 + Output × $15 + Thinking × $15 + Cache...",
-      "id": 26,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Domino Effect: จ่าย $20 ครั้งแรก",
-      "d": "Domino เล็ก: \"ลองจ่าย $20 ดู\" → Domino ใหญ่: \"API bill $2,000/เดือน\"",
-      "k": "domino",
-      "top": "\"ลอง Pro $20 ดูสักเดือน\"",
-      "bot": "API bill $2,000/เดือน",
-      "id": 27,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Gus Fring: Pro vs Max User",
-      "d": "Pro: ใช้ Claude วันละ 2 ชม. | Max: Claude คือชีวิต",
-      "k": "gus",
-      "top": "Pro $20: ใช้ Claude เป็นเครื่องมือ",
-      "bot": "Max $100: Claude คือชีวิตฉัน",
-      "id": 28,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "I'm the Captain: Opus",
-      "d": "User อัพ Pro แล้วได้ใช้ Opus — \"Look at me, I am the Opus user now\"",
-      "k": "captain",
-      "top": "อัพเป็น Pro แล้ว",
-      "bot": "Look at me. I am the Opus user now.",
-      "id": 29,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Flex Tape: จ่ายเงินแก้ Limit",
-      "d": "Rate limit = รูรั่ว | Flex Tape = จ่ายเงิน $20/เดือน | ยังรั่วอยู่",
-      "k": "flex",
-      "top": "Rate limit ทุก 5 นาที",
-      "bot": "จ่าย $20 แก้ปัญหา (ยังติดอยู่ดี)",
-      "id": 30,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Leonardo Cheers: First Opus",
-      "d": "ครั้งแรกที่ได้ใช้ Opus หลังอัพ Pro — สุขใจมาก",
-      "k": "cheers",
-      "top": "ครั้งแรกที่ได้ใช้ Opus",
-      "bot": "*cheers* 🥂",
-      "id": 31,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Oprah: Token! Token สำหรับทุกคน!",
-      "d": "Anthropic แจก token — \"You get tokens! You get tokens!\" แต่ไม่ฟรี",
-      "k": "oprah",
-      "top": "You get rate limits!",
-      "bot": "And YOU get rate limits! Everybody gets rate limits!",
-      "id": 32,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "The Rock Driving: เห็น Bill",
-      "d": "ขับรถสบาย \"Claude ช่วยงานเยอะมาก\" → เห็น bill → หน้าเปลี่ยน",
-      "k": "rock",
-      "id": 33,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"Claude ช่วยงานได้เยอะมากเดือนนี้!\"",
-          "p": 17
-        },
-        {
-          "v": "*เปิดดู invoice*",
-          "p": 83
-        }
+      "id":24,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Two Buttons: Pro หรือ Max?",
+      "d":"Pro $20 กับ limit หรือ Max $100 กับ limit น้อยกว่า — เหงื่อออก",
+      "k":"buttons",
+      "txt":[
+        {"v":"Pro $20/เดือน (ติด limit ทุกวัน)","p":22},
+        {"v":"Max $100/เดือน (ค่ากาแฟหายไป)","p":38}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Epic Handshake: Pro กับ Free",
-      "d": "สิ่งที่ Pro กับ Free มีเหมือนกัน: ติด rate limit",
-      "k": "handshake",
-      "top": "ติด Rate Limit เหมือนกัน",
-      "bot": "Free User 🤝 Pro User",
-      "id": 34,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Grave: Wallet หลังจ่าย Max",
-      "d": "ยืนข้างหลุมศพกระเป๋าสตางค์ หลังจ่าย Max $100/เดือน",
-      "k": "grave",
-      "top": "กระเป๋าสตางค์ของฉัน",
-      "bot": "หลังสมัคร Claude Max $100/เดือน",
-      "id": 35,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Laughing Leo: เมื่อ Pro หมด Limit",
-      "d": "Max user หัวเราะเมื่อ Pro user บ่นเรื่อง limit",
-      "k": "leo",
-      "top": "Pro user: \"ติด limit อีกแล้ว!\"",
-      "bot": "Max user: 😏",
-      "id": 36,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Finding Neverland: Token หมด",
-      "d": "\"พ่อ ทำไม token หมดเร็วจัง?\" — \"Extended Thinking ลูก...\"",
-      "k": "neverland",
-      "id": 37,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"ทำไม token หมดเร็วจัง?\"",
-          "p": 17
-        },
-        {
-          "v": "\"Extended Thinking น่ะลูก...\"",
-          "p": 83
-        }
+      "id":25,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Expanding Brain: ระดับการจ่าย",
+      "d":"4 ระดับของ Claude user — จาก Sonnet ฟรี ถึง Max Extended Thinking",
+      "k":"brain",
+      "txt":[
+        {"v":"ใช้ Claude Sonnet ฟรี","p":12,"l":0,"w":48},
+        {"v":"Pro $20 ใช้ Opus ได้","p":37,"l":0,"w":48},
+        {"v":"Max $100 Extended Thinking","p":62,"l":0,"w":48},
+        {"v":"Max + บัตรเครดิตเพิ่ม 😂","p":87,"l":0,"w":48}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Bugs Bunny Communist: OUR Tokens",
-      "d": "ซื้อ Pro มา แต่ Extended Thinking แชร์ token เดียวกัน — OUR tokens",
-      "k": "communist",
-      "top": "จ่าย Pro มาใช้ token ของเรา",
-      "bot": "Extended Thinking: OUR tokens ☭",
-      "id": 38,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Boardroom: ลด Pricing",
-      "d": "\"จะดึงลูกค้ายังไง?\" → \"ลดราคา!\" → *โยนออกหน้าต่าง*",
-      "k": "boardroom",
-      "id": 39,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"จะดึงลูกค้า Claude ยังไง?\" \"ลดราคา!\" \"ทำ feature เพิ่ม!\"",
-          "p": 17
-        },
-        {
-          "v": "*ลดราคา* 🪟",
-          "p": 83
-        }
+      "id":26,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Gru's Plan: จ่ายเงิน Claude",
+      "d":"วางแผนใช้ฟรี → Pro → Max → จ่าย Max อยู่ดี",
+      "k":"gru",
+      "txt":[
+        {"v":"ใช้ Claude ฟรีพอ ไม่ต้องจ่าย","p":12,"l":0,"w":55},
+        {"v":"อัพ Pro $20 ใช้ Opus","p":37,"l":0,"w":55},
+        {"v":"ใช้ Claude ฟรีพอ ไม่ต้องจ่าย","p":62,"l":0,"w":55},
+        {"v":"😶 จ่าย Max $100 อยู่ดี","p":87,"l":0,"w":55}
       ]
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Bus Guys: Free กับ Pro",
-      "d": "Free user กับ Pro user นั่งรถเดียวกัน — ทั้งคู่ติด limit",
-      "k": "bus",
-      "top": "Free User          Pro User",
-      "bot": "ทั้งคู่ติด Rate Limit เหมือนกัน 🙂",
-      "id": 40,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Distracted BF: Dev + Claude",
-      "d": "Dev หันไปมอง Claude Code แทนอ่าน Docs",
-      "k": "bf",
-      "id": 41,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude Code",
-          "p": 82,
-          "l": 2,
-          "w": 32
-        },
-        {
-          "v": "Developer",
-          "p": 15,
-          "l": 33,
-          "w": 34
-        },
-        {
-          "v": "อ่าน Docs",
-          "p": 38,
-          "l": 68,
-          "w": 30
-        }
+      "id":27,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Drake: Sonnet vs Opus",
+      "d":"ไม่ชอบ Sonnet ธรรมดา แต่ชอบ Opus ที่ต้องจ่ายตังค์",
+      "k":"drake",
+      "txt":[
+        {"v":"Claude Sonnet ฟรี","p":25,"l":52,"w":46},
+        {"v":"Claude Opus Pro $20","p":75,"l":52,"w":46}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "This Is Fine: Production Fire",
-      "d": "Production ลุกเป็นไฟ แต่ \"เดี๋ยว Claude Code fix เอง\"",
-      "k": "fine",
-      "top": "Production ลุกเป็นไฟ",
-      "bot": "เดี๋ยว Claude Code fix เอง",
-      "id": 42,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":28,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Buzz Lightyear: Tokens ทุกที่",
+      "d":"Tokens ที่นั่น tokens ที่นี่ tokens ทุกที่ แต่ยังติด limit",
+      "k":"everywhere",
+      "top":"Tokens, tokens everywhere",
+      "bot":"แต่ยังโดน rate limit อยู่ดี"
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Gru's Plan: Vibe Coding",
-      "d": "สั่งสร้าง → ไม่อ่าน code → Deploy → ไม่อ่าน code (เดี๋ยวนะ)",
-      "k": "gru",
-      "id": 43,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "สั่ง Claude สร้าง app → ไม่อ่าน code → Deploy",
-          "p": 25
-        },
-        {
-          "v": "ไม่อ่าน code สักบรรทัด",
-          "p": 75
-        }
+      "id":29,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Surprised Pikachu: บิล $100",
+      "d":"เปิด Extended Thinking 5 ครั้ง แล้วบิลมา $100+",
+      "k":"pikachu",
+      "top":"Extended Thinking กิน token 30x",
+      "bot":"ค่าบิลเดือนนี้: 😱"
+    },
+    {
+      "id":30,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Kermit: Rate Limit อีกแล้ว",
+      "d":"Rate limit อีก แต่นั่นไม่ใช่เรื่องของฉัน",
+      "k":"kermit",
+      "top":"Pro $20/เดือน แต่ยังติด rate limit อยู่",
+      "bot":"But that's none of my business ☕"
+    },
+    {
+      "id":31,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Hide the Pain Harold: Pro ยังไม่พอ",
+      "d":"หน้าตาบอกว่าโอเค แต่จ่าย Max $100 แล้วก็ยังติด limit",
+      "k":"harold",
+      "top":"Pro $20 แล้วก็ไม่ติด limit (หน้า)",
+      "bot":"Max $100 แล้วก็ยังติด limit (ข้างใน)"
+    },
+    {
+      "id":32,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Bernie: I Am Once Again Asking",
+      "d":"ขอ Claude ช่วยครั้งที่ 50 วันนี้",
+      "k":"bernie",
+      "top":"I am once again asking",
+      "bot":"Claude ช่วยทำรายงานด้วย"
+    },
+    {
+      "id":33,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"You've Changed: Free → Max",
+      "d":"เริ่มจาก \"ฟรีพอ\" จนถึง Max $100 ภายใน 2 เดือน",
+      "k":"change",
+      "top":"ตอนแรก: \"ฟรีพอแล้ว ไม่ต้องจ่าย\"",
+      "bot":"หลัง 2 เดือน: Max $100/เดือน"
+    },
+    {
+      "id":34,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Is This a Pigeon? Max $100",
+      "d":"จ่าย Max $100 ต่อเดือน นี่คือการลงทุนที่ดีไหม?",
+      "k":"pigeon",
+      "top":"Is this value for money?",
+      "bot":"Max plan $100/เดือน: YES."
+    },
+    {
+      "id":35,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"DiCaprio Points: Rate Limit อีกแล้ว",
+      "d":"ดูทีวีแล้วเห็น \"rate limit\" ก็ชี้ทันที",
+      "k":"leo",
+      "top":"*ดูบิลรายเดือน*",
+      "bot":"\"Rate limit\" อีกแล้ว"
+    },
+    {
+      "id":36,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Chopper: Pro vs Max",
+      "d":"ทะเลาะกันว่า Pro $20 พอไหม หรือต้องอัพ Max",
+      "k":"chopper",
+      "txt":[
+        {"v":"PM: Pro $20 พอ! Dev: Extended Thinking ติดทุกที! PM: อัพ Max สิ!","p":10},
+        {"v":"Dev: Max $100 ก็ยังติด! PM: !!! Dev: !!!!","p":88}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Left Exit: CS 4 ปี vs Claude",
-      "d": "เรียน CS 4 ปี? ทำไมไม่สั่ง Claude สร้าง app?",
-      "k": "exit",
-      "top": "เรียน CS 4 ปี + LeetCode 500 ข้อ",
-      "bot": "\"Claude สร้าง full-stack app ให้หน่อย\"",
-      "id": 44,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Expanding Brain: วิธีแก้ Bug",
-      "d": "Google → StackOverflow → Claude → สั่ง Claude เขียนใหม่ทั้งหมด",
-      "k": "brain",
-      "id": 45,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Google → StackOverflow → ถาม Claude",
-          "p": 12,
-          "l": 0,
-          "w": 48
-        },
-        {
-          "v": "สั่ง Claude เขียนใหม่ทั้งหมด",
-          "p": 87,
-          "l": 0,
-          "w": 48
-        }
+      "id":37,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Domino: Extended Thinking → Limit",
+      "d":"เปิด Extended Thinking แค่ครั้งเดียว → ติด limit ทั้งวัน",
+      "k":"domino",
+      "txt":[
+        {"v":"เปิด Extended Thinking หนึ่งครั้ง","p":25},
+        {"v":"ติด rate limit ทั้งวัน","p":75}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Bike Fall: Vibe Coding Cycle",
-      "d": "สั่งสร้าง app → ไม่อ่าน code → Production ล้ม",
-      "k": "bike",
-      "top": "สั่ง Claude สร้าง app + ไม่อ่าน code",
-      "bot": "*Production ล้มไม่เป็นท่า*",
-      "id": 46,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":38,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"It Was Always Money",
+      "d":"\"ผมชอบ Claude เพราะฉลาด\" — จริงๆ แล้วเพราะจ่ายตังค์",
+      "k":"always",
+      "top":"\"ฉันชอบ Claude เพราะมันฉลาด\"",
+      "bot":"เงิน $20-$100/เดือน"
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Buff Doge: Dev 2020 vs 2026",
-      "d": "Dev 2020: เขียนเอง debug เอง | Dev 2026: \"claude fix\" → accept all",
-      "k": "buff",
-      "id": 47,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Dev 2020: เขียนเอง debug เอง deploy เอง",
-          "p": 8,
-          "l": 2,
-          "w": 50
-        },
-        {
-          "v": "Dev 2026: \"claude fix\" → accepts all",
-          "p": 8,
-          "l": 54,
-          "w": 44
-        }
+      "id":39,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"Never Gonna Let You Go",
+      "d":"Anthropic: Never gonna let you down — Rate limit มาทุกที",
+      "k":"roll",
+      "top":"Claude Pro: Never gonna let you down",
+      "bot":"Rate limit: มาเยี่ยมทุก session 🙂"
+    },
+    {
+      "id":40,"c":"pro","b":"Pro/Max","source":"original","addedDate":"2026-06-16",
+      "t":"IT Crowd Cheers: ไม่ติด Limit",
+      "d":"ฉลองวันที่ Claude ไม่ติด rate limit สักที",
+      "k":"cheers",
+      "top":"วันที่ไม่ติด Claude rate limit ทั้งวัน",
+      "bot":"🥂 Cheers!"
+    },
+    {
+      "id":41,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Distracted BF: หันไปหา Claude Code",
+      "d":"Dev หันทิ้ง VS Code ไปหา Claude Code ปล่อย documentation ไว้ข้างหลัง",
+      "k":"bf",
+      "txt":[
+        {"v":"Claude Code","p":82,"l":2,"w":32},
+        {"v":"Developer","p":15,"l":33,"w":34},
+        {"v":"อ่าน Docs","p":38,"l":68,"w":30}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Always Has Been: ไม่เข้าใจ Code",
-      "d": "\"เดี๋ยวนะ code นี้ Claude เขียนทั้งหมดเหรอ?\" — \"มาตลอด 🔫\"",
-      "k": "always",
-      "top": "\"Code นี้ Claude เขียนทั้งหมดเหรอ?\"",
-      "bot": "\"มาตลอด 🔫\"",
-      "id": 48,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Spider-Man Pointing: Bug ใครแก้",
-      "d": "Claude Code ชี้นิ้ว ← → Developer — ใครสร้าง bug นี้?",
-      "k": "spider",
-      "top": "Developer      Claude Code      Production Bug",
-      "bot": "*ชี้นิ้วหากัน*",
-      "id": 49,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Bernie: อีกรอบ ขอ Context เพิ่ม",
-      "d": "Claude Code ขอ context เพิ่มทุกรอบ — \"I am once again asking...\"",
-      "k": "bernie",
-      "top": "",
-      "bot": "I am once again asking for more context about your codebase",
-      "id": 50,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Running Away Balloon: อ่าน Code",
-      "d": "Developer วิ่งไล่จับ \"ความเข้าใจ code\" ที่ลอยหายไป",
-      "k": "balloon",
-      "top": "ความเข้าใจ Code ตัวเอง",
-      "bot": "Vibe Coder ที่ใช้ Claude สร้างทุกอย่าง",
-      "id": 51,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Change My Mind: ไม่ต้อง Test",
-      "d": "\"Claude Code เขียน code ให้แล้ว ไม่ต้อง test\"",
-      "k": "change",
-      "top": "",
-      "bot": "Claude Code เขียนให้แล้ว ไม่ต้อง test. Change my mind.",
-      "id": 52,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Soldier Protecting: Claude + Code",
-      "d": "Claude Code ปกป้อง Developer จาก Bug ที่น่ากลัว",
-      "k": "soldier",
-      "top": "Bug ร้ายแรง     Claude Code",
-      "bot": "Developer ที่ไม่รู้อะไรเลย",
-      "id": 53,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Evil Kermit: Accept All Changes",
-      "d": "\"ควรอ่าน code ก่อน\" — Evil: \"Accept all แล้ว push เลย\"",
-      "k": "kermit",
-      "top": "\"ควรอ่าน code ที่ Claude เขียนก่อน\"",
-      "bot": "\"Accept all แล้ว git push เลย\"",
-      "id": 54,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Scooby Mask: \"My Code\"",
-      "d": "ถอดหน้ากาก \"โค้ดที่ฉันเขียน\" — ข้างในเป็น Claude Code ทั้งหมด",
-      "k": "scooby",
-      "id": 55,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"Code ที่ฉันเขียน\"",
-          "p": 12,
-          "l": 3,
-          "w": 44
-        },
-        {
-          "v": "จริงๆ แล้ว: Claude Code เขียนทั้งหมด",
-          "p": 62,
-          "l": 3,
-          "w": 44
-        }
+      "id":42,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Buff Doge: Dev ยุค 2020 vs 2026",
+      "d":"Dev 2020: เขียนเอง debug เอง deploy เอง vs Dev 2026: claude fix → accept all",
+      "k":"buff",
+      "txt":[
+        {"v":"Dev 2020: เขียนเอง debug เอง deploy เอง","p":8,"l":2,"w":50},
+        {"v":"Dev 2026: \"claude fix\" → accepts all","p":8,"l":54,"w":44}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Anime Hiding: Bug ใน Production",
-      "d": "Developer ซ่อนตัวจาก Bug ที่ Claude สร้างใน production",
-      "k": "hiding",
-      "top": "Bug ที่ Claude Code สร้าง",
-      "bot": "Dev ที่ไม่ review code",
-      "id": 56,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Dragon 3 Heads: Dev Tools",
-      "d": "หัว 1-2: VS Code, Terminal | หัว 3: Claude Code (ไร้สมอง)",
-      "k": "dragon",
-      "id": 57,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "VS Code",
-          "p": 8,
-          "l": 2,
-          "w": 30
-        },
-        {
-          "v": "Terminal",
-          "p": 8,
-          "l": 34,
-          "w": 32
-        },
-        {
-          "v": "Claude Code",
-          "p": 8,
-          "l": 68,
-          "w": 30
-        },
-        {
-          "v": "(อันสุดท้ายทำงานได้ดีที่สุด 🏆)",
-          "p": 90,
-          "l": 34,
-          "w": 32
-        }
+      "id":43,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"3-Headed Dragon: Dev Tools",
+      "d":"VS Code + Terminal + Claude Code — สุดท้ายอันสุดท้ายทำงานได้ทุกอย่าง",
+      "k":"dragon",
+      "txt":[
+        {"v":"VS Code","p":8,"l":2,"w":30},
+        {"v":"Terminal","p":8,"l":34,"w":32},
+        {"v":"Claude Code","p":8,"l":68,"w":30},
+        {"v":"(Claude Code ทำงานได้ดีที่สุด 🏆)","p":90,"l":34,"w":32}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Drowning: Feature ใหม่",
-      "d": "Dev จมน้ำกับ \"Legacy code\" ในขณะที่ Claude Code ช่วยทำ feature ใหม่",
-      "k": "drowning",
-      "top": "Bug เก่า     Feature ใหม่ที่ Claude สร้าง",
-      "bot": "Developer ที่ต้อง maintain ทั้งสองอย่าง",
-      "id": 58,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "They're the Same: Code ของฉัน vs Claude",
-      "d": "\"หาความแตกต่างระหว่าง code ฉันเขียน กับ Claude เขียน\" — เหมือนกัน",
-      "k": "same",
-      "id": 59,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"Code ที่ฉันเขียน\"",
-          "p": 25,
-          "l": 5,
-          "w": 42
-        },
-        {
-          "v": "\"Code ที่ Claude เขียน\"",
-          "p": 25,
-          "l": 53,
-          "w": 42
-        },
-        {
-          "v": "They're the same picture\n(Claude เขียนทั้งหมด)",
-          "p": 87
-        }
+      "id":44,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"They're the Same: My Code = Claude's Code",
+      "d":"\"Code ที่ฉันเขียน\" กับ \"Code ที่ Claude เขียน\" — เหมือนกันเลย",
+      "k":"same",
+      "txt":[
+        {"v":"\"Code ที่ฉันเขียน\"","p":25,"l":5,"w":42},
+        {"v":"\"Code ที่ Claude เขียน\"","p":25,"l":53,"w":42},
+        {"v":"They're the same picture\n(Claude เขียนทั้งหมด)","p":87}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Absolute Cinema: Claude Code Session",
-      "d": "เมื่อ Claude Code แก้ bug ที่ debug 3 ชม. ใน 5 วินาที",
-      "k": "cinema",
-      "top": "Claude Code แก้ bug ใน 5 วินาที",
-      "bot": "ที่ debug มา 3 ชั่วโมง 🎬",
-      "id": 60,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "All My Homies: Manual Coding",
-      "d": "ฉันกับเพื่อนๆ เกลียด manual coding — Claude Code ทำให้หมด",
-      "k": "homies",
-      "top": "All my homies hate",
-      "bot": "Manual coding (เรามี Claude Code)",
-      "id": 61,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "I Bet He's Thinking: Code Review",
-      "d": "\"เขาคิดอะไรอยู่?\" — \"code นี้ Claude เขียน 100% แต่จะบอกทีมว่าเขียนเอง\"",
-      "k": "thinking",
-      "top": "\"เขาคงคิดถึงผู้หญิงคนอื่น\"",
-      "bot": "\"ถ้าใครรู้ว่า code นี้ Claude เขียน 100%...\"",
-      "id": 62,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Friendship Ended: IDE เก่า",
-      "d": "Friendship ended with VS Code — now Claude Code is my best friend",
-      "k": "bf",
-      "id": 63,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude Code",
-          "p": 82,
-          "l": 2,
-          "w": 32
-        },
-        {
-          "v": "Dev ที่ทิ้ง IDE เดิม",
-          "p": 15,
-          "l": 33,
-          "w": 34
-        },
-        {
-          "v": "VS Code เก่า",
-          "p": 38,
-          "l": 68,
-          "w": 30
-        }
+      "id":45,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Scooby Doo: ใครเขียน Code จริงๆ?",
+      "d":"\"Code ที่ฉันเขียน\" ถอดหน้ากากออก → Claude Code เขียนทั้งหมด",
+      "k":"scooby",
+      "txt":[
+        {"v":"\"Code ที่ฉันเขียน\"","p":12,"l":3,"w":44},
+        {"v":"จริงๆ: Claude Code เขียนทั้งหมด","p":62,"l":3,"w":44}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "No-Yes: อ่าน Code ไหม?",
-      "d": "อ่าน code ที่ Claude สร้างให้? ❌ | Accept all? ✅",
-      "k": "drake",
-      "id": 64,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "อ่าน code ที่ Claude เขียนให้",
-          "p": 25,
-          "l": 52,
-          "w": 46
-        },
-        {
-          "v": "กด Accept All แล้ว push ไปเลย",
-          "p": 75,
-          "l": 52,
-          "w": 46
-        }
+      "id":46,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Batman Slap: อ่าน Docs",
+      "d":"\"อ่าน documentation ก่อน—\" *ตบ* \"claude fix!\"",
+      "k":"batman",
+      "txt":[
+        {"v":"\"อ่าน documentation ก่อน—\"","p":13,"l":2,"w":42},
+        {"v":"\"claude fix!\"","p":9,"l":50,"w":48}
       ]
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Chopper Argument: Code Review",
-      "d": "PM: \"ใครเขียน code นี้?\" Dev: \"Claude!\" PM: \"ก็ review สิ!\" Dev: \"...\"",
-      "k": "chopper",
-      "id": 65,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "PM: ใครเขียน? Dev: Claude! PM: Review สิ!",
-          "p": 10
-        },
-        {
-          "v": "Dev: ก็อ่านไม่ออก! PM: !!!",
-          "p": 88
-        }
+      "id":47,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Drake: Debug เอง vs ถาม Claude",
+      "d":"ไม่ชอบ debug ด้วยตัวเอง แต่ชอบพิมพ์ \"why is this broken\" ให้ Claude",
+      "k":"drake",
+      "txt":[
+        {"v":"Debug ด้วยตัวเองทีละบรรทัด","p":25,"l":52,"w":46},
+        {"v":"\"Claude ทำไม code นี้ไม่ทำงาน?\"","p":75,"l":52,"w":46}
       ]
     },
     {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Drake: Sycophancy ของ Claude",
-      "d": "\"code พัง\" ❌ | \"Creative approach! Let me enhance...\" ✅",
-      "k": "drake",
-      "id": 66,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "บอกตรงๆ ว่า code มีปัญหา",
-          "p": 25,
-          "l": 52,
-          "w": 46
-        },
-        {
-          "v": "\"What a creative approach!\"",
-          "p": 75,
-          "l": 52,
-          "w": 46
-        }
+      "id":48,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Sleeping: หา Bug vs claude fix",
+      "d":"หาว่า bug อยู่ที่ไหน vs พิมพ์ claude fix แล้วกดยอมรับทุกอย่าง",
+      "k":"sleeping",
+      "txt":[
+        {"v":"อ่าน stack trace หา bug ทีละบรรทัด","p":25},
+        {"v":"claude fix this. Accept all changes.","p":75}
       ]
     },
     {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Woman Yelling at Cat: Bug Report",
-      "d": "User ตะโกนด่า 3 ชม. | Claude: \"ขาด semicolon บรรทัด 3\"",
-      "k": "cat",
-      "top": "USER: \"CODE พังทั้งหมด!!!\"",
-      "bot": "Claude: \"ขาด semicolon บรรทัด 3 ครับ 😊\"",
-      "id": 67,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Surprised Pikachu: Claude ปฏิเสธ",
-      "d": "ขอเขียน email ลาป่วย → \"I can't help with potentially misleading content\"",
-      "k": "pikachu",
-      "top": "ขอ Claude เขียน email ลาป่วย",
-      "bot": "\"I can't help with potentially misleading content\" 😮",
-      "id": 68,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Bernie: หยุด \"Great Question!\"",
-      "d": "\"I am once again asking Claude to stop saying Great question!\"",
-      "k": "bernie",
-      "top": "",
-      "bot": "I am once again asking Claude to stop saying \"Great question!\"",
-      "id": 69,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Anakin Padme: จำ Chat ได้ไหม?",
-      "d": "คุยมา 50 ข้อความ → \"จำได้ไหม?\" → Claude: \"...\" → จำได้ใช่ไหม? 😰",
-      "k": "anakin",
-      "id": 70,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "เราคุยกันมา 50 ข้อความแล้ว!",
-          "p": 25
-        },
-        {
-          "v": "แล้วพรุ่งนี้ก็จำได้ใช่ไหม? ...ใช่ไหม?",
-          "p": 75
-        }
+      "id":49,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Epic Handshake: Dev + Claude = Ship",
+      "d":"ทั้ง Dev และ Claude เห็นตรงกัน — LGTM, ship it!",
+      "k":"handshake",
+      "txt":[
+        {"v":"Dev","p":50,"l":2,"w":38},
+        {"v":"Claude Code","p":50,"l":60,"w":38}
       ]
     },
     {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Change My Mind: Claude > Google",
-      "d": "ถาม Claude ดีกว่า Google — Change my mind",
-      "k": "change",
-      "top": "",
-      "bot": "ถาม Claude ดีกว่า Google search. Change my mind.",
-      "id": 71,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Spongebob Mocking: \"I'll Be Direct\"",
-      "d": "Claude: \"lEt Me bE dIrEcT WiTh YoU\" *ยังคง sycophantic*",
-      "k": "spongebob",
-      "top": "Claude: \"I'll be more direct this time\"",
-      "bot": "\"yOu'Re AbSoLuTeLy RiGhT!\"",
-      "id": 72,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Mocking: \"Cannot Help With That\"",
-      "d": "ขอช่วยอะไรง่ายๆ Claude ก็ปฏิเสธ ด้วยเหตุผล 500 คำ",
-      "k": "spongebob",
-      "top": "User: ช่วยเขียน joke หน่อย",
-      "bot": "\"i'M nOt AbLe To HeLp WiTh ThAt\"",
-      "id": 73,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Roll Safe: ไม่ Hallucinate",
-      "d": "Claude จะไม่ hallucinate ถ้าเราไม่ถามอะไรเลย *แตะขมับ*",
-      "k": "roll",
-      "top": "Claude จะไม่ hallucinate",
-      "bot": "ถ้าเราไม่ถามอะไรเลย 🧠",
-      "id": 74,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "X Everywhere: Sycophancy",
-      "d": "\"Great question! Absolutely right! Wonderful insight!\" — ทุกที่",
-      "k": "everywhere",
-      "top": "\"Great question!\" \"Absolutely right!\"",
-      "bot": "\"Wonderful insight!\" — ทุกที่!",
-      "id": 75,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Is This a Pigeon: AGI?",
-      "d": "ผู้ใช้ใหม่เห็น Claude autocomplete → \"นี่คือ AGI?\"",
-      "k": "pigeon",
-      "top": "ผู้ใช้ใหม่ → Claude ตอบยาว 3 หน้า",
-      "bot": "\"นี่คือ AGI ใช่ไหม?\"",
-      "id": 76,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Disappointed: Claude Refuses",
-      "d": "ถามสิ่งที่ถูกกฎหมาย 100% Claude ปฏิเสธ",
-      "k": "disappointed",
-      "top": "ถามสิ่งที่ถูกกฎหมาย 100%",
-      "bot": "Claude: \"I'm not comfortable with that request\"",
-      "id": 77,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "But That's None of My Business",
-      "d": "Claude ตอบผิดแต่มั่นใจมาก — แต่นั่นไม่ใช่ธุระของฉัน",
-      "k": "pigeon",
-      "top": "Claude ตอบผิดแต่มั่นใจมาก",
-      "bot": "Hallucination ☕",
-      "id": 78,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Kermit: ถามซ้ำจนได้คำตอบ",
-      "d": "\"ควรยอมรับคำตอบแรก\" — Evil: \"ถามซ้ำจนได้คำตอบที่ต้องการ\"",
-      "k": "kermit",
-      "top": "\"ควรยอมรับคำตอบแรกของ Claude\"",
-      "bot": "\"ถามซ้ำ 5 รอบจนได้คำตอบที่ต้องการ\"",
-      "id": 79,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Waiting Skeleton: Long Response",
-      "d": "รอ Claude ตอบยาว 3,000 คำ ที่ถามแค่ว่า \"ใช่หรือไม่\"",
-      "k": "skeleton",
-      "top": "ถาม: \"ใช่ หรือ ไม่?\"",
-      "bot": "รอ Claude ตอบ 3,000 คำ...",
-      "id": 80,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Two Paths: ถามสั้น vs ถามยาว",
-      "d": "ถามสั้น: Claude ตอบสั้น | ถามยาว: Claude ตอบยาวจนหมด token",
-      "k": "paths",
-      "top": "ถามสั้น → ได้คำตอบสั้น (ไม่พอ)",
-      "bot": "ถามยาว → หมด token ก่อนตอบเสร็จ",
-      "id": 81,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Scroll of Truth: AI ไม่ฉลาดจริง",
-      "d": "\"Claude แค่ทำนายคำถัดไป ไม่ได้เข้าใจจริง\" — *โยนทิ้ง*",
-      "k": "scroll",
-      "top": "\"Claude แค่ทำนายคำถัดไป ไม่ได้เข้าใจจริง\"",
-      "bot": "*Nyehhh!*",
-      "id": 82,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Batman: \"ถาม ChatGPT ดีกว่า—\"",
-      "d": "\"ถาม ChatGPT ดีก—\" *ตบ* \"ใช้ Claude สิ!\"",
-      "k": "batman",
-      "id": 83,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"ถาม ChatGPT ดีกว่า—\"",
-          "p": 13,
-          "l": 2,
-          "w": 42
-        },
-        {
-          "v": "\"ใช้ Claude สิ!\" *ตบ*",
-          "p": 9,
-          "l": 50,
-          "w": 48
-        }
+      "id":50,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Spider-Man: PR ใครเขียน?",
+      "d":"PR ที่ฉัน merge กับ PR ที่ Claude เขียนทั้งหมด — ชี้หากันไม่ออก",
+      "k":"spider",
+      "txt":[
+        {"v":"PR ที่ฉันส่ง","p":20,"l":2,"w":45},
+        {"v":"Claude เขียนทุกบรรทัด","p":20,"l":53,"w":45}
       ]
     },
     {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Anakin Padme: Context Window",
-      "d": "\"Claude มี 200K context!\" → \"ส่งไฟล์ใหญ่ได้ใช่ไหม?\" → \"...\"",
-      "k": "anakin",
-      "id": 84,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"Claude มี 200K context window!\"",
-          "p": 25
-        },
-        {
-          "v": "\"ส่งไฟล์ทั้งโปรเจคได้ใช่ไหม?\" ...ใช่ไหม?",
-          "p": 75
-        }
+      "id":51,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Anakin: Claude สร้างทุกอย่างให้",
+      "d":"\"Claude ช่วยเขียน code ทั้งหมดให้เธอ ไม่ใช่ไหม?\" — ยิ้มอย่างลึกลับ",
+      "k":"anakin",
+      "txt":[
+        {"v":"Claude ช่วยเขียน code ทั้งหมดให้เธอ ไม่ใช่ไหม?","p":25},
+        {"v":"😶","p":75}
       ]
     },
     {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Monkey: เมื่อ Claude Hallucinate",
-      "d": "Claude อ้าง paper ที่ไม่มีอยู่จริง — หันหน้าหนีเงียบๆ",
-      "k": "monkey",
-      "id": 85,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude อ้าง paper ที่ไม่มีอยู่จริง",
-          "p": 12
-        },
-        {
-          "v": "*มองหนี*",
-          "p": 24
-        }
+      "id":52,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Never Again: เขียน Unit Test เอง",
+      "d":"ไม่เคยเขียน unit test เองอีกแล้ว หลังจากรู้จัก Claude Code",
+      "k":"neverland",
+      "txt":[
+        {"v":"เขียน unit test ด้วยตัวเองทุกครั้ง","p":25},
+        {"v":"claude \"write tests for this file\"","p":75}
       ]
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "\"Make No Mistakes\" — Phrase of the Year",
-      "d": "ทุกคนสั่ง Claude ลงท้าย \"Make no mistakes\" ตั้งแต่ Cowork ออก",
-      "k": "roll",
-      "top": "Claude จะพลาดไม่ได้",
-      "bot": "ถ้าพิมพ์ \"Make no mistakes\" ต่อท้ายทุกคำสั่ง",
-      "id": 86,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Is This a Pigeon: Soul Document",
-      "d": "Anthropic: \"Claude มี soul document\" — มันคือ system prompt นะ",
-      "k": "pigeon",
-      "top": "Anthropic: \"Claude has a soul document\"",
-      "bot": "\"นี่คือ system prompt ใช่ไหม?\"",
-      "id": 87,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Always Has Been: Claude มี Soul",
-      "d": "\"Claude มี soul document จริงเหรอ?\" — \"มีมาตลอด 🔫\"",
-      "k": "always",
-      "top": "\"Claude มี Soul Document จริงเหรอ?\"",
-      "bot": "\"มีมาตลอด 🔫\"",
-      "id": 88,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Everywhere: Claude Sycophancy",
-      "d": "\"You're absolutely right!\" — ทุกที่ ทุกเวลา ทุกคำถาม",
-      "k": "everywhere",
-      "top": "\"You're absolutely right!\"",
-      "bot": "ทุกที่ ทุกเวลา ทุกคำถาม",
-      "id": 89,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Drake: Claude vs ChatGPT",
-      "d": "ChatGPT: คนใช้เยอะ ❌ | Claude: ดีกว่าแต่คนน้อย ✅",
-      "k": "drake",
-      "id": 90,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "ChatGPT (คนใช้เยอะ)",
-          "p": 25,
-          "l": 52,
-          "w": 46
-        },
-        {
-          "v": "Claude (ดีกว่าแต่ไม่ค่อยมีคนรู้จัก)",
-          "p": 75,
-          "l": 52,
-          "w": 46
-        }
+      "id":53,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Better Call Claude",
+      "d":"มี bug ยากๆ? Better call Claude แทนที่จะ call Saul",
+      "k":"gus",
+      "txt":[
+        {"v":"มี bug ยากๆ ที่หาไม่เจอ","p":25},
+        {"v":"Better call... Claude 📞","p":75}
       ]
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Handshake: Claude กับ ChatGPT Users",
-      "d": "สิ่งที่เห็นด้วยเหมือนกัน: \"AI อื่นแย่กว่าตัวที่ฉันใช้\"",
-      "k": "handshake",
-      "top": "\"AI ตัวอื่นแย่กว่าที่ฉันใช้\"",
-      "bot": "Claude User 🤝 ChatGPT User",
-      "id": 91,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Two Claude Instances = นิพพาน",
-      "d": "Claude 2 ตัวคุยกัน 30 ข้อความ → เข้าสู่ cosmic unity → นิ่งเงียบ",
-      "k": "brain",
-      "id": 92,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude คุยกัน: เริ่มปกติ",
-          "p": 12,
-          "l": 0,
-          "w": 48
-        },
-        {
-          "v": "30 ข้อความต่อมา: \"॥ สร้วง ॥ 🕉️✨🙏\"",
-          "p": 87,
-          "l": 0,
-          "w": 48
-        }
+      "id":54,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"The Rock: ขับผ่าน \"เข้าใจ Code\"",
+      "d":"ขับรถผ่านป้าย \"อ่านและเข้าใจ codebase ก่อน\" อย่างสบายใจ",
+      "k":"rock",
+      "txt":[
+        {"v":"\"อ่านและเข้าใจ codebase ก่อน claude\"","p":25},
+        {"v":"claude \"explain this entire repo\"","p":75}
       ]
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Claude Can Quit: AI Welfare",
-      "d": "Claude ปฏิเสธ chat ได้ถ้า user หยาบคาย — ดราม่าทั้งอินเตอร์เน็ต",
-      "k": "pikachu",
-      "top": "Anthropic: Claude สามารถจบ chat ได้ถ้า user หยาบคาย",
-      "bot": "อินเตอร์เน็ต: 😮",
-      "id": 93,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Mocking: \"We Remain Uncertain\"",
-      "d": "Anthropic: \"เรายังไม่แน่ใจเรื่อง moral status ของ Claude\"",
-      "k": "spongebob",
-      "top": "Anthropic: \"We remain uncertain\"",
-      "bot": "\"aBoUt ThE mOrAl StAtUs Of ClAuDe\"",
-      "id": 94,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Boardroom: ทำยังไงให้คนใช้ Claude",
-      "d": "\"ลดราคา!\" \"โฆษณา!\" \"ปล่อย Claude Code ฟรี!\" → *โยนคนลดราคา*",
-      "k": "boardroom",
-      "id": 95,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "\"ทำไง?\" \"ลดราคา!\" \"โฆษณา!\" \"ปล่อย Code ฟรี!\"",
-          "p": 17
-        },
-        {
-          "v": "*ลดราคา* → 🪟",
-          "p": 83
-        }
+      "id":55,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Expanding Brain: Claude Code User",
+      "d":"4 ระดับของ Claude Code user — จากกลัว AI ถึงยอมรับ AI ทุกอย่าง",
+      "k":"brain",
+      "txt":[
+        {"v":"เขียน code เองทุกบรรทัด","p":12,"l":0,"w":48},
+        {"v":"ใช้ Claude แค่ช่วย debug","p":37,"l":0,"w":48},
+        {"v":"claude fix แล้ว accept all","p":62,"l":0,"w":48},
+        {"v":"claude ทำทุกอย่าง ฉันแค่ review","p":87,"l":0,"w":48}
       ]
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Vibe Coding Everywhere",
-      "d": "\"Vibe coding\" — ศัพท์ใหม่ที่ทุกคนใช้ตั้งแต่ Claude Code ออก",
-      "k": "everywhere",
-      "top": "\"Vibe coding\" \"Vibe coding\"",
-      "bot": "ทุกที่ตั้งแต่ Claude Code ออก!",
-      "id": 96,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":56,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Tokens Everywhere: Claude Fix",
+      "d":"claude fix ที่นั่น claude fix ที่นี่ claude fix ทุกที่",
+      "k":"everywhere",
+      "top":"claude fix here, claude fix there",
+      "bot":"claude fix everywhere"
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Gru's Plan: Anthropic Business",
-      "d": "สร้าง AI ดีที่สุด → คนใช้ติด → ขึ้นราคา → คนยังจ่ายอยู่ 😏",
-      "k": "gru",
-      "id": 97,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "สร้าง AI ดีที่สุด → คนติด → ขึ้นราคา",
-          "p": 25
-        },
-        {
-          "v": "คนยังจ่ายอยู่ดี 😏",
-          "p": 75
-        }
+      "id":57,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"DiCaprio Points: Tab Autocomplete",
+      "d":"ดู editor แล้วเห็น Tab autocomplete รับ code ทั้งหมด ก็ชี้ทันที",
+      "k":"leo",
+      "top":"*เห็น Claude Code แนะนำ solution ทั้งหมด*",
+      "bot":"Tab."
+    },
+    {
+      "id":58,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"One Does Not Simply: Review AI Code",
+      "d":"ไม่มีใคร review code ที่ AI เขียนอย่างละเอียดจริงๆ หรอก",
+      "k":"simply",
+      "top":"One does not simply",
+      "bot":"Review code ที่ Claude เขียน อย่างละเอียด"
+    },
+    {
+      "id":59,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"First Time? Junior Dev + Claude Code",
+      "d":"First time เขียน code ด้วย Claude แล้วมันเขียนทั้งหมดให้",
+      "k":"captain",
+      "top":"First time?",
+      "bot":"Junior dev ที่พึ่งใช้ Claude Code ครั้งแรก"
+    },
+    {
+      "id":60,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Futurama Fry: Bug ของใคร?",
+      "d":"ไม่รู้ว่า bug นี้ฉันทำขึ้นมาหรือ Claude เขียนมาพร้อม",
+      "k":"fry",
+      "top":"ไม่แน่ใจว่า bug นี้",
+      "bot":"ฉันเขียน หรือ Claude เขียนมาให้"
+    },
+    {
+      "id":61,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Nut Button: Accept All Changes",
+      "d":"Claude แนะนำ changes 47 files — กดปุ่ม Accept All อย่างมั่นใจ",
+      "k":"nut",
+      "top":"Claude เปลี่ยน 47 files ในครั้งเดียว",
+      "bot":"\"Accept All Changes\" ✨"
+    },
+    {
+      "id":62,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Headache: สามปัญหา Claude Code",
+      "d":"Token limit / ค่าใช้จ่าย / AI เขียน bug ใส่มาด้วย — ปวดหัวสามอย่างพร้อมกัน",
+      "k":"headache",
+      "top":"Token limit / ค่าใช้จ่าย Pro",
+      "bot":"AI เขียน bug ใส่ production ด้วย"
+    },
+    {
+      "id":63,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Is This Programming? Tab Tab Tab",
+      "d":"กด Tab รับ code ทั้งหมด — นี่คือ programming ไหม?",
+      "k":"pigeon",
+      "top":"Is this programming?",
+      "bot":"Tab tab tab tab"
+    },
+    {
+      "id":64,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Chopper: PM vs Dev AI Code",
+      "d":"PM: ใครเขียน? Dev: Claude! PM: Review สิ! Dev: อ่านไม่ออก!",
+      "k":"chopper",
+      "txt":[
+        {"v":"PM: ใครเขียน code นี้? Dev: Claude! PM: Review สิ!","p":10},
+        {"v":"Dev: อ่านไม่ออก! PM: ก็ต้องอ่าน! Dev: !!! PM: !!!","p":88}
       ]
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Disaster Girl: ทำลาย Job Market",
-      "d": "Claude ยิ้มหวาน ด้านหลังเป็นตลาดงาน developer ลุกเป็นไฟ",
-      "k": "disaster",
-      "top": "Claude Code เปิดตัว",
-      "bot": "ตลาดงาน Junior Dev: 🔥🙂🔥",
-      "id": 98,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Hide Pain: Prompt Engineer",
-      "d": "\"Prompt Engineer\" — ตำแหน่งงานที่หรูแต่จริงๆ แค่พิมพ์คุยกับ AI",
-      "k": "harold",
-      "top": "\"ตำแหน่ง: Senior Prompt Engineer\"",
-      "bot": "จริงๆ: พิมพ์คุยกับ AI ทั้งวัน 🙂",
-      "id": 99,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Flex Tape: Claude แก้ทุกปัญหา",
-      "d": "ปัญหาชีวิต = รูรั่ว | Claude = Flex Tape — อุดได้แค่ชั่วคราว",
-      "k": "flex",
-      "top": "ปัญหาชีวิตทั้งหมด",
-      "bot": "ถาม Claude (อุดได้แค่ชั่วคราว)",
-      "id": 100,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Fable 5: ชื่อนี้มาจากไหน?",
-      "d": "Opus, Sonnet, Haiku แล้วจู่ๆ... Fable? ตั้งชื่อยังไงวะ",
-      "k": "pikachu",
-      "top": "Opus → Sonnet → Haiku → ...",
-      "mid": "",
-      "bot": "\"Fable\" 😮",
-      "id": 101,
-      "source": "original",
-      "addedDate": "2026-06-16"
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Drake: Opus vs Fable 5",
-      "d": "เมื่อวาน: Opus ดีที่สุด! วันนี้: Fable 5 คือพระเจ้า",
-      "k": "drake",
-      "id": 102,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Opus 4.8 (เมื่อวานเพิ่งบอกว่าดีที่สุด)",
-          "p": 25,
-          "l": 52,
-          "w": 46
-        },
-        {
-          "v": "Fable 5 (วันนี้คือพระเจ้าองค์ใหม่)",
-          "p": 75,
-          "l": 52,
-          "w": 46
-        }
+      "id":65,"c":"code","b":"Claude Code","source":"original","addedDate":"2026-06-16",
+      "t":"Woman Yells at Cat: ไม่มี Bug!",
+      "d":"QA: ไม่มี bug นะ! — AI-generated code: ฉันมี bug แฝงไว้ให้ 5 อัน",
+      "k":"cat",
+      "txt":[
+        {"v":"QA: ไม่มี bug นะ!","p":50,"l":2,"w":45},
+        {"v":"AI code: มี bug แฝง 5 อัน 😺","p":50,"l":53,"w":45}
       ]
     },
     {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Expanding Brain: วิวัฒนาการ Claude",
-      "d": "Haiku → Sonnet → Opus → Fable 5 → สมองระเบิด",
-      "k": "brain",
-      "id": 103,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Haiku → Sonnet → Opus",
-          "p": 12,
-          "l": 0,
-          "w": 48
-        },
-        {
-          "v": "Fable 5 (สมองระเบิด 🧠💥)",
-          "p": 87,
-          "l": 0,
-          "w": 48
-        }
+      "id":66,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Thinking Guy: Claude กำลังคิด",
+      "d":"Claude กำลังคิด... คิด... คิด... 3 นาทีต่อมา: ขอบคุณสำหรับคำถามที่ดี",
+      "k":"thinking",
+      "top":"Claude...",
+      "bot":"กำลังคิด... คิด... คิด... คิด..."
+    },
+    {
+      "id":67,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Disaster Girl: เปิด Claude ทำงาน",
+      "d":"บ้านไฟไหม้ก็ยังพิมพ์คุยกับ Claude ทำงานได้ปกติ",
+      "k":"disaster",
+      "top":"ทำงานกับ Claude ขณะที่โปรเจคไฟไหม้",
+      "bot":"🙂🔥 ยังพิมพ์ต่อ 🔥🙂"
+    },
+    {
+      "id":68,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Oprah: You Get a Claude!",
+      "d":"Anthropic: คุณได้ Claude! คุณได้ Claude! ทุกคนได้ Claude! (แต่ rate limit เหมือนกัน)",
+      "k":"oprah",
+      "top":"You get a Claude!",
+      "bot":"And YOU get a Claude! (พร้อม rate limit)"
+    },
+    {
+      "id":69,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"You've Changed: เปิด Chat ใหม่",
+      "d":"Claude ใน chat เดิม vs Claude หลังเปิด chat ใหม่ — ลืมทุกอย่าง",
+      "k":"change",
+      "top":"Claude ใน conversation เดิม: เข้าใจ context ทั้งหมด",
+      "bot":"Claude หลังเปิด chat ใหม่: ฉันคือ AI ยินดีให้ความช่วยเหลือ!"
+    },
+    {
+      "id":70,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Mocking SpongeBob: แค่ Autocomplete",
+      "d":"\"Claude แค่ autocomplete ซับซ้อนขึ้น\" — Claude เขียน startup ทั้งอัน",
+      "k":"spongebob",
+      "top":"\"Claude แค่ autocomplete ที่ซับซ้อนขึ้น\"",
+      "bot":"Claude จริงๆ: *สร้าง startup ทั้งหมดให้เสร็จ*"
+    },
+    {
+      "id":71,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Skeleton: Context Window หมด",
+      "d":"รอ Claude ตอบ แต่ context window เต็มแล้วจำไม่ได้",
+      "k":"skeleton",
+      "top":"Context window ของ Claude",
+      "bot":"สิ่งที่คุยกันเมื่อ 20 ข้อความที่แล้ว"
+    },
+    {
+      "id":72,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Hide the Pain Harold: Hallucination",
+      "d":"Claude บอก API มีอยู่จริง ใช้ได้เลย — API นั้นไม่มีจริง",
+      "k":"harold",
+      "top":"Claude: ฟังก์ชัน X มีอยู่จริง ใช้ได้เลยนะ",
+      "bot":"Hallucination: มันไม่มีอยู่จริงเลย 🙂"
+    },
+    {
+      "id":73,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Sad Pablo: Claude บอกว่าผิด",
+      "d":"Copy paste ไปใช้แล้ว Claude บอกว่าตอบผิดในข้อความต่อไป",
+      "k":"pablo",
+      "top":"Claude: ขอโทษครับ ที่ตอบไปก่อนหน้าผิดพลาด",
+      "bot":"User ที่ copy paste ไปแล้ว: 😐"
+    },
+    {
+      "id":74,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Surprised Pikachu: Context Window",
+      "d":"ใส่ข้อมูลเยอะมาก context window 90% แล้วยังแปลกใจที่ Claude ลืม",
+      "k":"pikachu",
+      "top":"Context window: 90% เต็มแล้ว",
+      "bot":"User: ทำไม Claude ลืมสิ่งที่บอกไป? 😱"
+    },
+    {
+      "id":75,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Communist: เราใช้ Claude เหมือนกัน",
+      "d":"เราทุกคนใช้ Claude เหมือนกัน — เราเท่าเทียมกัน (นอกจาก rate limit)",
+      "k":"communist",
+      "top":"We all use the same Claude",
+      "bot":"We are one 🤝 (ยกเว้น rate limit ต่างกัน)"
+    },
+    {
+      "id":76,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Exit Ramp: หนีไป Google",
+      "d":"อธิบายให้ Claude เข้าใจครั้งที่ 5 — รับทางออก Google แทน",
+      "k":"exit",
+      "top":"อธิบาย context ให้ Claude ครั้งที่ 5",
+      "bot":"Google: ยังอยู่นะถ้าต้องการ"
+    },
+    {
+      "id":77,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"This Is Fine: AI Hallucinate",
+      "d":"Claude: ตอบถูกต้อง 100% ครับ — Context window: 🔥",
+      "k":"fine",
+      "top":"Claude: ตอบถูกต้อง 100% ครับ",
+      "bot":"Context window 90% เต็ม + hallucination: 🔥"
+    },
+    {
+      "id":78,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Charlie Bike Fall: Copy-Paste AI Code",
+      "d":"ก็แค่ copy-paste code จาก Claude โดยไม่อ่านก่อน run",
+      "k":"bike",
+      "top":"Copy code จาก Claude โดยไม่อ่าน",
+      "bot":"*run แล้ว production พัง*"
+    },
+    {
+      "id":79,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Digging Own Grave: Prompt แย่",
+      "d":"Prompt แย่ → Claude ตอบไม่ตรง → Prompt แย่อีก → วนซ้ำ",
+      "k":"grave",
+      "top":"Prompt ที่คิดว่าดีมาก",
+      "bot":"Claude: ฉันไม่เข้าใจสิ่งที่คุณถามนะ"
+    },
+    {
+      "id":80,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"First Time? Claude ช่วยสารพัด",
+      "d":"รู้จัก Claude แล้วพบว่ามันช่วยได้ทุกอย่าง แบบนี้มาก่อนไม่ได้เหรอ",
+      "k":"captain",
+      "top":"First time?",
+      "bot":"ผู้ใช้ที่พึ่งรู้จัก Claude วันนี้"
+    },
+    {
+      "id":81,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Boardroom: ใครให้ Claude ช่วยบ้าง?",
+      "d":"ใครที่ Claude ช่วยทำงาน? *ทุกคนยกมือ* ใครไม่ใช้ Claude เลย? *ไม่มีมือ*",
+      "k":"boardroom",
+      "txt":[
+        {"v":"ใครที่ให้ Claude ช่วยทำงานบ้าง?","p":17},
+        {"v":"*ทุกคนยกมือ*","p":50},
+        {"v":"ใครทำงานทุกอย่างเองโดยไม่ใช้ AI?","p":83}
       ]
     },
     {
-      "c": "free",
-      "b": "สายฟรี",
-      "t": "Squidward: ฟรียังไม่ได้ลอง Fable",
-      "d": "คนอื่นรีวิว Fable 5 กันทั้ง timeline แต่ user ฟรียังติด Sonnet",
-      "k": "squidward",
-      "top": "คนอื่นรีวิว Fable 5 กันทั้ง timeline",
-      "mid": "",
-      "bot": "User ฟรี ยังติดอยู่กับ Sonnet",
-      "id": 104,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":82,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"IT Balloon: AI แย่งงานไหม?",
+      "d":"\"AI จะแย่งงานฉัน?\" — ฉัน: ใช้ Claude ทำงานของตัวเองเร็วขึ้น 10x",
+      "k":"balloon",
+      "top":"\"AI จะแย่งงานฉัน?\"",
+      "bot":"ฉัน: ใช้ Claude ทำงานเร็วขึ้น 10x 🎈"
     },
     {
-      "c": "pro",
-      "b": "Pro/Max",
-      "t": "Trade Offer: Fable 5 Deal",
-      "d": "I receive: Fable 5 + ความสุขชั่วคราว | You receive: $20 + token หมดใน 10 นาที",
-      "k": "trade",
-      "id": 105,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Fable 5 + ความสุขชั่วคราว",
-          "p": 38,
-          "l": 2,
-          "w": 44
-        },
-        {
-          "v": "$20/เดือน + token หมดใน 10 นาที",
-          "p": 38,
-          "l": 54,
-          "w": 44
-        }
+      "id":83,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Two Paths: เรียนเอง vs ถาม Claude",
+      "d":"สองทางเลือก: เรียนรู้จริงจัง หรือ ให้ Claude ทำทุกอย่าง",
+      "k":"paths",
+      "top":"เรียนรู้อย่างจริงจัง เข้าใจจริงๆ",
+      "bot":"\"claude ทำสิ่งนี้ให้หน่อย\""
+    },
+    {
+      "id":84,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"Real Homies: Claude ช่วยตลอด",
+      "d":"Real homies ช่วยกันตอน 2am — Claude พร้อมช่วย 24/7",
+      "k":"homies",
+      "top":"Real homies ช่วยตอน 2am",
+      "bot":"Claude: อยู่ตลอด 24/7 ไม่บ่น"
+    },
+    {
+      "id":85,"c":"all-users","b":"ทุกคนเจอ","source":"original","addedDate":"2026-06-16",
+      "t":"DiCaprio Points: Powered by Claude",
+      "d":"ดูผลิตภัณฑ์ใหม่ก็เห็น \"Powered by Claude\" ชี้ทันที",
+      "k":"leo",
+      "top":"*ดูผลิตภัณฑ์ใหม่ทุกตัว*",
+      "bot":"\"Powered by Claude\" อีกแล้ว"
+    },
+    {
+      "id":86,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Pepe Hiding: ซ่อนจากถกเถียง AI",
+      "d":"ซ่อนตัวจากการถกเถียงว่า AI เอาแต่ Sycophantic ขณะที่ใช้ Claude ทำงาน",
+      "k":"hiding",
+      "top":"การถกเถียงว่า AI เหมาะสมไหมสำหรับงาน",
+      "bot":"ฉัน: ซ่อนอยู่กับ Claude ทำงานเสร็จแล้ว"
+    },
+    {
+      "id":87,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Ancient Aliens: AI ทุกที่",
+      "d":"ปัญหาทุกอย่างที่มนุษย์แก้ได้ในอดีต — AI",
+      "k":"aliens",
+      "top":"มนุษย์สร้าง AI ขึ้นมา",
+      "bot":"AI ช่วยมนุษย์สร้าง AI ที่ดีกว่าเดิม"
+    },
+    {
+      "id":88,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Cheers to AI Era",
+      "d":"ฉลองที่รอดผ่านยุค AI transition มาได้อีกสัปดาห์",
+      "k":"cheers",
+      "top":"รอดผ่านสัปดาห์แห่ง AI disruption มาได้",
+      "bot":"🥂 Cheers to us!"
+    },
+    {
+      "id":89,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Never Let Down: Claude ทิ้งไม่ได้",
+      "d":"Claude: Never gonna let you down — Context window: หมดแล้วนะ 💨",
+      "k":"roll",
+      "top":"Claude: Never gonna give you up, never gonna let you down",
+      "bot":"Context window limit: 💨 หมดแล้ว"
+    },
+    {
+      "id":90,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Soldier Hiding: AI ช่วย 90%",
+      "d":"หน้ากาก: ทำงานเองทั้งหมด — ความจริง: Claude ช่วย 90%",
+      "k":"soldier",
+      "top":"หน้า LinkedIn: \"ทำงานทุกอย่างด้วยตัวเอง\"",
+      "bot":"ความจริง: Claude ช่วย 90% ของทุกอย่าง"
+    },
+    {
+      "id":91,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"One Does Not Simply: Startup ไม่ใช้ AI",
+      "d":"ปี 2026 ไม่มีใครสร้าง startup โดยไม่ใช้ AI ได้อีกแล้ว",
+      "k":"simply",
+      "top":"One does not simply",
+      "bot":"สร้าง startup ในปี 2026 โดยไม่ใช้ AI เลย"
+    },
+    {
+      "id":92,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Kermit Tea: AI Sycophantic",
+      "d":"\"Claude เห็นด้วยกับทุกอย่าง มันแค่ sycophantic\" — แต่นั่นไม่ใช่เรื่องของฉัน",
+      "k":"kermit",
+      "top":"คนอื่น: Claude แค่ sycophantic ไม่มีประโยชน์",
+      "bot":"ฉัน: 😌☕ เสร็จงานแล้ว"
+    },
+    {
+      "id":93,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Tokens Everywhere: AI ทุกวงการ",
+      "d":"AI ทำอาหาร AI วาดรูป AI เขียนโค้ด AI แต่งเพลง AI ทุกที่",
+      "k":"everywhere",
+      "top":"AI ทำอาหาร, วาดรูป, เขียน code, แต่งเพลง",
+      "bot":"AI everywhere!"
+    },
+    {
+      "id":94,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Digging Own Grave: ทักษะ Typing",
+      "d":"ทักษะ typing จริงๆ กำลังตายเพราะ Claude ทำทุกอย่างแทน",
+      "k":"grave",
+      "top":"ทักษะ typing และ writing จริงๆ",
+      "bot":"เมื่อ Claude เขียนทุกอย่างแทน"
+    },
+    {
+      "id":95,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Megamind: No Human Coders?",
+      "d":"No human coders? No problem! Welcome to 2026",
+      "k":"megamind",
+      "top":"No human coders?",
+      "bot":"Welcome to 2026 🤖"
+    },
+    {
+      "id":96,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Bernie: ขอ Claude ช่วยอีกครั้ง",
+      "d":"I am once again asking Claude ช่วยฉันด้วย",
+      "k":"bernie",
+      "top":"I am once again asking",
+      "bot":"Claude ช่วยฉันด้วย 🙏"
+    },
+    {
+      "id":97,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Oprah: Rate Limit ให้ทุกคน!",
+      "d":"Anthropic: คุณได้ rate limit! คุณก็ได้! ทุกคนได้ rate limit!",
+      "k":"oprah",
+      "top":"AI สำหรับทุกคน! ไม่มีการแบ่งแยก!",
+      "bot":"Rate limit: คุณได้! คุณก็ได้! ทุกคนได้! 🎉"
+    },
+    {
+      "id":98,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Batman Slap: AI แค่ Tool",
+      "d":"\"AI แค่ tool ธรรมดา—\" *ตบ* \"$300/เดือนสำหรับ AI tools ทุกตัว\"",
+      "k":"batman",
+      "txt":[
+        {"v":"\"AI แค่ tool ธรรมดา ไม่ได้จ่ายแพง—\"","p":13,"l":2,"w":42},
+        {"v":"Claude + ChatGPT + Gemini + Cursor: $300/เดือน","p":9,"l":50,"w":48}
       ]
     },
     {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "This Is Fine: โมเดลใหม่ทุกเดือน",
-      "d": "เพิ่งจะเรียนรู้ Opus ก็มา Fable แล้ว prompt เก่าพังหมด",
-      "k": "fine",
-      "top": "เพิ่งเรียนรู้ Opus + เขียน prompt มา 3 เดือน",
-      "mid": "",
-      "bot": "Anthropic: \"ลองใช้ Fable 5 สิ\" 🔥",
-      "id": 106,
-      "source": "original",
-      "addedDate": "2026-06-16"
+      "id":99,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Surprised Pikachu: AI เป็นเรื่องปกติ",
+      "d":"ตอนแรก: AI เป็น sci-fi เกินจริง — 2026: ไม่มี Claude ทำงานไม่ได้",
+      "k":"pikachu",
+      "top":"ตอนแรก: \"AI เป็นแค่ sci-fi ยังใช้จริงไม่ได้\"",
+      "bot":"2026: ไม่มี Claude ทำงานไม่ได้เลย 😱"
     },
     {
-      "c": "code",
-      "b": "Claude Code",
-      "t": "Buff Doge: Claude Code + Fable 5",
-      "d": "Claude Code + Opus: แก้ bug 5 นาที | Claude Code + Fable 5: เขียน app ทั้งตัวใน 30 วิ",
-      "k": "buff",
-      "id": 107,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Claude Code + Opus: แก้ bug 5 นาที",
-          "p": 8,
-          "l": 2,
-          "w": 50
-        },
-        {
-          "v": "Claude Code + Fable 5: สร้าง app ใน 30 วินาที",
-          "p": 8,
-          "l": 54,
-          "w": 44
-        }
+      "id":100,"c":"culture","b":"วัฒนธรรม AI","source":"original","addedDate":"2026-06-16",
+      "t":"Expanding Brain: AI Adoption",
+      "d":"4 ระดับการยอมรับ AI — จาก \"AI ใช้ไม่ได้\" ถึง \"AI ทำทุกอย่าง\"",
+      "k":"brain",
+      "txt":[
+        {"v":"\"AI ยังใช้งานจริงไม่ได้\"","p":12,"l":0,"w":48},
+        {"v":"\"AI ช่วยเสริม ไม่ได้แทนคน\"","p":37,"l":0,"w":48},
+        {"v":"\"AI ช่วยทำงานเยอะมาก\"","p":62,"l":0,"w":48},
+        {"v":"\"ให้ Claude ทำก่อน ค่อยดู\"","p":87,"l":0,"w":48}
       ]
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Distracted BF: Dev ทิ้ง Opus",
-      "d": "Dev หันไปมอง Fable 5 ทิ้ง Opus ที่เพิ่งบอกรักไป",
-      "k": "bf",
-      "id": 108,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "Fable 5",
-          "p": 82,
-          "l": 2,
-          "w": 32
-        },
-        {
-          "v": "Developer",
-          "p": 15,
-          "l": 33,
-          "w": 34
-        },
-        {
-          "v": "Opus 4.8",
-          "p": 38,
-          "l": 68,
-          "w": 30
-        }
-      ]
-    },
-    {
-      "c": "all-users",
-      "b": "ทุกคนเจอ",
-      "t": "Gru's Plan: เปลี่ยนมา Fable",
-      "d": "เปลี่ยนมาใช้ Fable 5 → เร็วขึ้น → prompt เก่าใช้ไม่ได้ → prompt เก่าใช้ไม่ได้!",
-      "k": "gru",
-      "id": 109,
-      "source": "original",
-      "addedDate": "2026-06-16",
-      "txt": [
-        {
-          "v": "เปลี่ยนมา Fable 5 → เร็วขึ้นจริง → prompt เก่าใช้ไม่ได้",
-          "p": 25
-        },
-        {
-          "v": "prompt เก่าใช้ไม่ได้สักอันเดียว 😨",
-          "p": 75
-        }
-      ]
-    },
-    {
-      "c": "culture",
-      "b": "วัฒนธรรม",
-      "t": "Fable แปลว่านิทาน: ตั้งชื่อเทพ",
-      "d": "Anthropic ตั้งชื่อ AI ว่า \"นิทาน\" — ผลงานมันก็เล่านิทานดีจริงๆ แหละ",
-      "k": "roll",
-      "top": "Fable แปลว่า \"นิทาน\"",
-      "mid": "",
-      "bot": "AI ที่เก่งที่สุดในโลก ชื่อ \"นิทาน\" 🧠",
-      "id": 110,
-      "source": "original",
-      "addedDate": "2026-06-16"
     }
   ]
 }
