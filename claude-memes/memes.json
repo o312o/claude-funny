@@ -349,15 +349,21 @@
       "txt": [
         {
           "v": "Claude ตอบได้เทพมาก!",
-          "p": 16
+          "p": 16,
+          "l": 0,
+          "w": 48
         },
         {
           "v": "ฟรีก็พอแล้ว ไม่ต้องจ่ายเงิน",
-          "p": 50
+          "p": 50,
+          "l": 0,
+          "w": 48
         },
         {
           "v": "\"You've reached your message limit\"",
-          "p": 84
+          "p": 84,
+          "l": 0,
+          "w": 48
         }
       ]
     },
@@ -403,11 +409,23 @@
       "t": "Batman Slap: \"ฟรีก็พอ\"",
       "d": "\"ฟรีก็พอแล้ว—\" *ตบ* \"ไปจ่ายเงิน!\"",
       "k": "batman",
-      "top": "\"ฟรีก็เพียงพอแล้ว ไม่ต้อง—\"",
-      "bot": "\"ไปจ่ายเงินซะ!\"",
       "id": 8,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"ฟรีก็เพียงพอแล้ว ไม่ต้อง—\"",
+          "p": 13,
+          "l": 2,
+          "w": 42
+        },
+        {
+          "v": "\"ไปจ่ายเงินซะ!\"",
+          "p": 9,
+          "l": 50,
+          "w": 48
+        }
+      ]
     },
     {
       "c": "free",
@@ -609,11 +627,15 @@
       "txt": [
         {
           "v": "รอ Rate Limit 4 ชม. (Free)",
-          "p": 25
+          "p": 25,
+          "l": 38,
+          "w": 60
         },
         {
           "v": "รอ Rate Limit 40 นาที (Pro $20)",
-          "p": 75
+          "p": 75,
+          "l": 38,
+          "w": 60
         }
       ]
     },
@@ -623,11 +645,23 @@
       "t": "Trade Offer: Anthropic Deal",
       "d": "I receive: Opus + Thinking | You receive: $20-$100 + วิญญาณ",
       "k": "trade",
-      "top": "Claude Opus + Extended Thinking",
-      "bot": "$20-$100/เดือน + วิญญาณ",
       "id": 23,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Claude Opus + Extended Thinking",
+          "p": 38,
+          "l": 2,
+          "w": 44
+        },
+        {
+          "v": "$20-$100/เดือน + วิญญาณ",
+          "p": 38,
+          "l": 54,
+          "w": 44
+        }
+      ]
     },
     {
       "c": "pro",
@@ -1291,11 +1325,19 @@
       "t": "Chopper Argument: Code Review",
       "d": "PM: \"ใครเขียน code นี้?\" Dev: \"Claude!\" PM: \"ก็ review สิ!\" Dev: \"...\"",
       "k": "chopper",
-      "top": "PM: ใครเขียน? Dev: Claude! PM: Review สิ!",
-      "bot": "Dev: ก็อ่านไม่ออก! PM: !!!",
       "id": 65,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "PM: ใครเขียน? Dev: Claude! PM: Review สิ!",
+          "p": 10
+        },
+        {
+          "v": "Dev: ก็อ่านไม่ออก! PM: !!!",
+          "p": 88
+        }
+      ]
     },
     {
       "c": "all-users",
@@ -1527,11 +1569,23 @@
       "t": "Batman: \"ถาม ChatGPT ดีกว่า—\"",
       "d": "\"ถาม ChatGPT ดีก—\" *ตบ* \"ใช้ Claude สิ!\"",
       "k": "batman",
-      "top": "\"ถาม ChatGPT ดีกว่า—\"",
-      "bot": "\"ใช้ Claude สิ!\" *ตบ*",
       "id": 83,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "\"ถาม ChatGPT ดีกว่า—\"",
+          "p": 13,
+          "l": 2,
+          "w": 42
+        },
+        {
+          "v": "\"ใช้ Claude สิ!\" *ตบ*",
+          "p": 9,
+          "l": 50,
+          "w": 48
+        }
+      ]
     },
     {
       "c": "all-users",
@@ -1873,12 +1927,23 @@
       "t": "Trade Offer: Fable 5 Deal",
       "d": "I receive: Fable 5 + ความสุขชั่วคราว | You receive: $20 + token หมดใน 10 นาที",
       "k": "trade",
-      "top": "Fable 5 + ความสุขชั่วคราว",
-      "mid": "",
-      "bot": "$20/เดือน + token หมดใน 10 นาที",
       "id": 105,
       "source": "original",
-      "addedDate": "2026-06-16"
+      "addedDate": "2026-06-16",
+      "txt": [
+        {
+          "v": "Fable 5 + ความสุขชั่วคราว",
+          "p": 38,
+          "l": 2,
+          "w": 44
+        },
+        {
+          "v": "$20/เดือน + token หมดใน 10 นาที",
+          "p": 38,
+          "l": 54,
+          "w": 44
+        }
+      ]
     },
     {
       "c": "all-users",
