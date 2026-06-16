@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "popcat",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8787", "--directory", "popcat"],
+      "port": 8787
+    },
+    {
+      "name": "claude-memes",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8788", "--directory", "claude-memes"],
+      "port": 8788
+    }
+  ]
+}

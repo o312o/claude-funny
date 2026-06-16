@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PopCat 🐱</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #1a1a2e;
+    color: #fff;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .score-display {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-shadow: 0 0 30px rgba(255, 107, 107, 0.5);
+    transition: transform 0.1s;
+  }
+
+  .score-display.pop { transform: scale(1.15); }
+
+  .cat-container {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.05s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .cat-container:active { transform: scale(0.97); }
+
+  .cat-svg {
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(0 0 40px rgba(255, 165, 0, 0.3));
+  }
+
+  .pop-text {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ff6b6b;
+    pointer-events: none;
+    animation: popUp 0.6s ease-out forwards;
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.8);
+  }
+
+  @keyframes popUp {
+    0% { opacity: 1; transform: translateY(0) scale(1); }
+    100% { opacity: 0; transform: translateY(-80px) scale(1.5); }
+  }
+
+  .stats {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+
+  .shield {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+
+  .shield.safe {
+    background: rgba(46, 213, 115, 0.15);
+    border: 1px solid rgba(46, 213, 115, 0.4);
+    color: #2ed573;
+  }
+
+  .shield.warning {
+    background: rgba(255, 165, 0, 0.15);
+    border: 1px solid rgba(255, 165, 0, 0.4);
+    color: #ffa502;
+  }
+
+  .shield.danger {
+    background: rgba(255, 71, 87, 0.15);
+    border: 1px solid rgba(255, 71, 87, 0.4);
+    color: #ff4757;
+  }
+
+  /* Challenge overlay */
+  .challenge-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    animation: fadeIn 0.3s;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .challenge-box {
+    background: #16213e;
+    border: 2px solid #e94560;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .challenge-box h2 {
+    color: #e94560;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+
+  .challenge-box p {
+    margin-bottom: 25px;
+    opacity: 0.8;
+    line-height: 1.6;
+  }
+
+  .challenge-targets {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .challenge-target {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    border: 2px solid transparent;
+  }
+
+  .challenge-target:hover {
+    transform: scale(1.1);
+    border-color: #fff;
+  }
+
+  .challenge-timer {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #e94560;
+    margin-top: 10px;
+  }
+
+  .banned-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    animation: fadeIn 0.5s;
+  }
+
+  .banned-overlay h1 {
+    font-size: 3rem;
+    color: #ff4757;
+    margin-bottom: 20px;
+  }
+
+  .banned-overlay p {
+    opacity: 0.7;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .banned-overlay button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    border: 2px solid #ff4757;
+    background: transparent;
+    color: #ff4757;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .banned-overlay button:hover {
+    background: #ff4757;
+    color: #fff;
+  }
+
+  .combo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .combo.active {
+    opacity: 1;
+    color: #ffd32a;
+  }
+
+  .particles {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 5;
+  }
+</style>
+</head>
+<body>
+
+<div class="shield safe" id="shield">🛡️ Human Verified</div>
+<div class="combo" id="combo"></div>
+
+<div class="score-display" id="score">0</div>
+
+<div class="cat-container" id="catBtn">
+  <svg class="cat-svg" viewBox="0 0 300 300" id="catSvg">
+    <!-- Cat face - closed mouth -->
+    <g id="catClosed">
+      <!-- Ears -->
+      <polygon points="60,100 90,20 120,100" fill="#f8b739"/>
+      <polygon points="70,95 90,35 110,95" fill="#ffcf5c"/>
+      <polygon points="180,100 210,20 240,100" fill="#f8b739"/>
+      <polygon points="190,95 210,35 230,95" fill="#ffcf5c"/>
+      <!-- Head -->
+      <ellipse cx="150" cy="170" rx="110" ry="100" fill="#f8b739"/>
+      <ellipse cx="150" cy="175" rx="100" ry="90" fill="#ffcf5c"/>
+      <!-- Eyes -->
+      <ellipse cx="110" cy="155" rx="18" ry="20" fill="#333"/>
+      <ellipse cx="190" cy="155" rx="18" ry="20" fill="#333"/>
+      <ellipse cx="114" cy="150" rx="6" ry="7" fill="#fff"/>
+      <ellipse cx="194" cy="150" rx="6" ry="7" fill="#fff"/>
+      <!-- Nose -->
+      <polygon points="145,185 155,185 150,192" fill="#ff8fab"/>
+      <!-- Mouth closed -->
+      <path d="M130,200 Q140,210 150,200 Q160,210 170,200" stroke="#333" stroke-width="2.5" fill="none"/>
+      <!-- Whiskers -->
+      <line x1="50" y1="185" x2="100" y2="190" stroke="#333" stroke-width="1.5"/>
+      <line x1="45" y1="200" x2="98" y2="200" stroke="#333" stroke-width="1.5"/>
+      <line x1="200" y1="190" x2="250" y2="185" stroke="#333" stroke-width="1.5"/>
+      <line x1="202" y1="200" x2="255" y2="200" stroke="#333" stroke-width="1.5"/>
+    </g>
+    <!-- Cat face - open mouth -->
+    <g id="catOpen" style="display:none">
+      <polygon points="60,100 90,20 120,100" fill="#f8b739"/>
+      <polygon points="70,95 90,35 110,95" fill="#ffcf5c"/>
+      <polygon points="180,100 210,20 240,100" fill="#f8b739"/>
+      <polygon points="190,95 210,35 230,95" fill="#ffcf5c"/>
+      <ellipse cx="150" cy="170" rx="110" ry="100" fill="#f8b739"/>
+      <ellipse cx="150" cy="175" rx="100" ry="90" fill="#ffcf5c"/>
+      <!-- Big eyes -->
+      <ellipse cx="110" cy="150" rx="20" ry="24" fill="#333"/>
+      <ellipse cx="190" cy="150" rx="20" ry="24" fill="#333"/>
+      <ellipse cx="115" cy="144" rx="7" ry="9" fill="#fff"/>
+      <ellipse cx="195" cy="144" rx="7" ry="9" fill="#fff"/>
+      <!-- Nose -->
+      <polygon points="145,183 155,183 150,190" fill="#ff8fab"/>
+      <!-- Mouth OPEN -->
+      <ellipse cx="150" cy="215" rx="30" ry="22" fill="#333"/>
+      <ellipse cx="150" cy="210" rx="25" ry="14" fill="#ff6b81"/>
+      <!-- Whiskers excited -->
+      <line x1="45" y1="180" x2="98" y2="188" stroke="#333" stroke-width="1.5"/>
+      <line x1="42" y1="198" x2="96" y2="198" stroke="#333" stroke-width="1.5"/>
+      <line x1="202" y1="188" x2="255" y2="180" stroke="#333" stroke-width="1.5"/>
+      <line x1="204" y1="198" x2="258" y2="198" stroke="#333" stroke-width="1.5"/>
+    </g>
+  </svg>
+</div>
+
+<div class="stats">
+  <span>CPS: <strong id="cps">0.0</strong></span>
+  <span>Trust: <strong id="trust">100</strong>%</span>
+</div>
+
+<canvas class="particles" id="particles"></canvas>
+
+<script>
+(function() {
+  'use strict';
+
+  // ===== ANTI-BOT ENGINE =====
+  const AntiBot = {
+    clickTimes: [],
+    clickPositions: [],
+    trustScore: 100,
+    warningCount: 0,
+    challengesPassed: 0,
+    challengesFailed: 0,
+    isBanned: false,
+    lastClickTime: 0,
+    identicalPosCount: 0,
+    lastPos: null,
+    mouseMoved: false,
+    mouseTrail: [],
+    entropy: 0,
+    perfectIntervalCount: 0,
+
+    recordClick(x, y, time) {
+      this.clickTimes.push(time);
+      this.clickPositions.push({ x, y });
+
+      if (this.clickTimes.length > 100) this.clickTimes.shift();
+      if (this.clickPositions.length > 100) this.clickPositions.shift();
+    },
+
+    analyze() {
+      const flags = [];
+
+      // 1) Click speed check - superhuman speed
+      if (this.clickTimes.length >= 5) {
+        const recent = this.clickTimes.slice(-10);
+        const intervals = [];
+        for (let i = 1; i < recent.length; i++) {
+          intervals.push(recent[i] - recent[i - 1]);
+        }
+        const avgInterval = intervals.reduce((a, b) => a + b, 0) / intervals.length;
+
+        if (avgInterval < 40) {
+          flags.push('superhuman_speed');
+          this.trustScore -= 25;
+        } else if (avgInterval < 70) {
+          flags.push('very_fast');
+          this.trustScore -= 10;
+        }
+
+        // 2) Perfect interval detection (bots click at exact intervals)
+        if (intervals.length >= 5) {
+          const stdDev = Math.sqrt(
+            intervals.reduce((sum, v) => sum + Math.pow(v - avgInterval, 2), 0) / intervals.length
+          );
+          const cv = stdDev / avgInterval;
+
+          if (cv < 0.03 && avgInterval < 200) {
+            flags.push('machine_precision');
+            this.trustScore -= 30;
+            this.perfectIntervalCount++;
+          } else if (cv < 0.08 && avgInterval < 150) {
+            flags.push('suspicious_regularity');
+            this.trustScore -= 15;
+          } else {
+            this.perfectIntervalCount = Math.max(0, this.perfectIntervalCount - 1);
+          }
+        }
+      }
+
+      // 3) Same position detection
+      if (this.clickPositions.length >= 2) {
+        const last = this.clickPositions[this.clickPositions.length - 1];
+        const prev = this.clickPositions[this.clickPositions.length - 2];
+        const dist = Math.sqrt(Math.pow(last.x - prev.x, 2) + Math.pow(last.y - prev.y, 2));
+
+        if (dist < 2) {
+          this.identicalPosCount++;
+          if (this.identicalPosCount > 20) {
+            flags.push('pixel_perfect_clicks');
+            this.trustScore -= 15;
+          }
+        } else {
+          this.identicalPosCount = Math.max(0, this.identicalPosCount - 3);
+        }
+      }
+
+      // 4) No mouse movement between clicks
+      if (!this.mouseMoved && this.clickTimes.length > 10) {
+        flags.push('no_mouse_movement');
+        this.trustScore -= 10;
+      }
+      this.mouseMoved = false;
+
+      // 5) Mouse trail entropy (bots have zero or minimal mouse movement patterns)
+      if (this.mouseTrail.length >= 10) {
+        const angles = [];
+        for (let i = 2; i < this.mouseTrail.length; i++) {
+          const a = Math.atan2(
+            this.mouseTrail[i].y - this.mouseTrail[i-1].y,
+            this.mouseTrail[i].x - this.mouseTrail[i-1].x
+          );
+          angles.push(a);
+        }
+        if (angles.length > 2) {
+          const uniqueAngles = new Set(angles.map(a => Math.round(a * 10)));
+          if (uniqueAngles.size <= 2 && this.clickTimes.length > 15) {
+            flags.push('linear_mouse_path');
+            this.trustScore -= 8;
+          }
+        }
+        this.mouseTrail = this.mouseTrail.slice(-5);
+      }
+
+      // Recovery
+      if (flags.length === 0) {
+        this.trustScore = Math.min(100, this.trustScore + 2);
+      }
+
+      this.trustScore = Math.max(0, Math.min(100, this.trustScore));
+
+      return {
+        flags,
+        trustScore: this.trustScore,
+        shouldChallenge: this.trustScore < 40 && this.warningCount < 3,
+        shouldBan: this.trustScore <= 0 || this.perfectIntervalCount >= 5 || this.challengesFailed >= 3,
+      };
+    },
+
+    recordMouseMove(x, y) {
+      this.mouseMoved = true;
+      this.mouseTrail.push({ x, y });
+      if (this.mouseTrail.length > 30) this.mouseTrail.shift();
+    }
+  };
+
+  // ===== GAME STATE =====
+  let score = 0;
+  let mouthOpen = false;
+  let mouthTimeout = null;
+  let clicksInWindow = [];
+  let challengeActive = false;
+  let scoreMultiplier = 1;
+
+  // ===== DOM =====
+  const scoreEl = document.getElementById('score');
+  const catBtn = document.getElementById('catBtn');
+  const catClosed = document.getElementById('catClosed');
+  const catOpen = document.getElementById('catOpen');
+  const cpsEl = document.getElementById('cps');
+  const trustEl = document.getElementById('trust');
+  const shieldEl = document.getElementById('shield');
+  const comboEl = document.getElementById('combo');
+  const canvas = document.getElementById('particles');
+  const ctx = canvas.getContext('2d');
+
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  });
+
+  // ===== PARTICLES =====
+  const particles = [];
+
+  function spawnParticles(x, y) {
+    const count = 3 + Math.floor(Math.random() * 4);
+    for (let i = 0; i < count; i++) {
+      particles.push({
+        x, y,
+        vx: (Math.random() - 0.5) * 8,
+        vy: -Math.random() * 6 - 2,
+        life: 1,
+        size: 3 + Math.random() * 4,
+        color: ['#ff6b6b', '#ffd32a', '#ff9f43', '#ee5a24', '#ffcf5c'][Math.floor(Math.random() * 5)]
+      });
+    }
+  }
+
+  function animateParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = particles.length - 1; i >= 0; i--) {
+      const p = particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.vy += 0.15;
+      p.life -= 0.02;
+      if (p.life <= 0) { particles.splice(i, 1); continue; }
+      ctx.globalAlpha = p.life;
+      ctx.fillStyle = p.color;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(animateParticles);
+  }
+  animateParticles();
+
+  // ===== CHALLENGE SYSTEM =====
+  function showChallenge() {
+    if (challengeActive) return;
+    challengeActive = true;
+    AntiBot.warningCount++;
+
+    const animals = ['🐱', '🐶', '🐰', '🐻', '🐸', '🦊', '🐵', '🐷', '🦁', '🐮', '🐔', '🐺'];
+    const targetAnimal = '🐱';
+    const gridSize = 9;
+    const catPositions = new Set();
+
+    const catCount = 2 + Math.floor(Math.random() * 2);
+    while (catPositions.size < catCount) {
+      catPositions.add(Math.floor(Math.random() * gridSize));
+    }
+
+    const grid = [];
+    for (let i = 0; i < gridSize; i++) {
+      if (catPositions.has(i)) {
+        grid.push(targetAnimal);
+      } else {
+        grid.push(animals[1 + Math.floor(Math.random() * (animals.length - 1))]);
+      }
+    }
+
+    const overlay = document.createElement('div');
+    overlay.className = 'challenge-overlay';
+
+    let found = 0;
+    let timeLeft = 8;
+
+    overlay.innerHTML = `
+      <div class="challenge-box">
+        <h2>🤖 ตรวจสอบว่าคุณเป็นมนุษย์</h2>
+        <p>กดที่ <strong>แมว ${targetAnimal}</strong> ทั้งหมด ${catCount} ตัว!</p>
+        <div class="challenge-targets" id="challengeGrid"></div>
+        <div class="challenge-timer" id="challengeTimer">${timeLeft}s</div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    const gridEl = document.getElementById('challengeGrid');
+    const timerEl = document.getElementById('challengeTimer');
+
+    grid.forEach((emoji, idx) => {
+      const el = document.createElement('div');
+      el.className = 'challenge-target';
+      el.style.background = 'rgba(255,255,255,0.08)';
+      el.textContent = emoji;
+      el.addEventListener('click', () => {
+        if (emoji === targetAnimal) {
+          el.style.background = 'rgba(46, 213, 115, 0.3)';
+          el.style.borderColor = '#2ed573';
+          el.style.pointerEvents = 'none';
+          found++;
+          if (found >= catCount) {
+            clearInterval(timerInterval);
+            AntiBot.challengesPassed++;
+            AntiBot.trustScore = Math.min(100, AntiBot.trustScore + 30);
+            overlay.remove();
+            challengeActive = false;
+          }
+        } else {
+          el.style.background = 'rgba(255, 71, 87, 0.3)';
+          el.style.borderColor = '#ff4757';
+          setTimeout(() => {
+            el.style.background = 'rgba(255,255,255,0.08)';
+            el.style.borderColor = 'transparent';
+          }, 300);
+        }
+      });
+      gridEl.appendChild(el);
+    });
+
+    const timerInterval = setInterval(() => {
+      timeLeft--;
+      timerEl.textContent = `${timeLeft}s`;
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        AntiBot.challengesFailed++;
+        AntiBot.trustScore -= 20;
+        overlay.remove();
+        challengeActive = false;
+        if (AntiBot.challengesFailed >= 3) {
+          showBanned();
+        }
+      }
+    }, 1000);
+  }
+
+  function showBanned() {
+    AntiBot.isBanned = true;
+    const overlay = document.createElement('div');
+    overlay.className = 'banned-overlay';
+    overlay.innerHTML = `
+      <h1>🚫 ถูกแบน!</h1>
+      <p>ตรวจพบพฤติกรรมบอท — คะแนนถูกรีเซ็ต</p>
+      <button onclick="location.reload()">ลองใหม่</button>
+    `;
+    document.body.appendChild(overlay);
+    score = 0;
+    scoreEl.textContent = '0';
+  }
+
+  // ===== ANTI-AUTOMATION MEASURES =====
+
+  // Block programmatic clicks (no isTrusted)
+  function isGenuineEvent(e) {
+    if (!e.isTrusted) return false;
+    // Block if no pointer info at all (synthetic events)
+    if (e.pointerType === '' && e.type === 'click') return false;
+    return true;
+  }
+
+  // Detect devtools-driven automation
+  let devToolsOpen = false;
+  const devToolsCheck = setInterval(() => {
+    const t0 = performance.now();
+    debugger; // This pauses in devtools
+    if (performance.now() - t0 > 50) {
+      devToolsOpen = true;
+    }
+  }, 0);
+  // Disable the aggressive debugger check - use a subtler method
+  clearInterval(devToolsCheck);
+
+  // Detect automation frameworks
+  function detectAutomation() {
+    const markers = [
+      window.navigator.webdriver,
+      window.__selenium_unwrapped,
+      window.__webdriver_evaluate,
+      window.__driver_evaluate,
+      window._phantom,
+      window.callPhantom,
+      window._selenium,
+      window.domAutomation,
+      window.domAutomationController,
+      document.__webdriver_script_fn,
+    ];
+    return markers.some(Boolean);
+  }
+
+  if (detectAutomation()) {
+    setTimeout(showBanned, 500);
+  }
+
+  // Block rapid-fire from keyboard
+  document.addEventListener('keydown', (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+    }
+  });
+
+  // ===== POP EFFECT =====
+  function showPop(x, y) {
+    const pop = document.createElement('div');
+    pop.className = 'pop-text';
+    pop.textContent = scoreMultiplier > 1 ? `+${scoreMultiplier}` : '+1';
+    pop.style.left = `${x - 15}px`;
+    pop.style.top = `${y - 20}px`;
+    document.body.appendChild(pop);
+    setTimeout(() => pop.remove(), 600);
+  }
+
+  function openMouth() {
+    catClosed.style.display = 'none';
+    catOpen.style.display = 'block';
+    mouthOpen = true;
+    clearTimeout(mouthTimeout);
+    mouthTimeout = setTimeout(closeMouth, 120);
+  }
+
+  function closeMouth() {
+    catClosed.style.display = 'block';
+    catOpen.style.display = 'none';
+    mouthOpen = false;
+  }
+
+  // ===== CPS TRACKER =====
+  setInterval(() => {
+    const now = Date.now();
+    clicksInWindow = clicksInWindow.filter(t => now - t < 1000);
+    cpsEl.textContent = clicksInWindow.length.toFixed(1);
+  }, 100);
+
+  // ===== COMBO SYSTEM =====
+  let comboCount = 0;
+  let comboTimer = null;
+
+  function updateCombo() {
+    comboCount++;
+    clearTimeout(comboTimer);
+
+    if (comboCount >= 10) {
+      scoreMultiplier = 3;
+      comboEl.textContent = `🔥 x${comboCount} COMBO! (x3)`;
+    } else if (comboCount >= 5) {
+      scoreMultiplier = 2;
+      comboEl.textContent = `⚡ x${comboCount} COMBO! (x2)`;
+    } else {
+      scoreMultiplier = 1;
+      comboEl.textContent = '';
+    }
+
+    comboEl.classList.toggle('active', comboCount >= 5);
+
+    comboTimer = setTimeout(() => {
+      comboCount = 0;
+      scoreMultiplier = 1;
+      comboEl.classList.remove('active');
+      comboEl.textContent = '';
+    }, 2000);
+  }
+
+  // ===== CLICK HANDLER =====
+  catBtn.addEventListener('pointerdown', (e) => {
+    if (AntiBot.isBanned || challengeActive) return;
+
+    if (!isGenuineEvent(e)) {
+      AntiBot.trustScore -= 50;
+      return;
+    }
+
+    const now = performance.now();
+    const rect = catBtn.getBoundingClientRect();
+    const relX = e.clientX - rect.left;
+    const relY = e.clientY - rect.top;
+
+    AntiBot.recordClick(relX, relY, now);
+    const result = AntiBot.analyze();
+
+    // Update UI
+    trustEl.textContent = Math.round(result.trustScore);
+
+    if (result.shouldBan) {
+      showBanned();
+      return;
+    }
+
+    if (result.shouldChallenge) {
+      showChallenge();
+      return;
+    }
+
+    // Update shield
+    if (result.trustScore >= 70) {
+      shieldEl.className = 'shield safe';
+      shieldEl.textContent = '🛡️ Human Verified';
+    } else if (result.trustScore >= 40) {
+      shieldEl.className = 'shield warning';
+      shieldEl.textContent = '⚠️ Suspicious';
+    } else {
+      shieldEl.className = 'shield danger';
+      shieldEl.textContent = '🚨 Bot Detected';
+    }
+
+    // Count the click
+    score += scoreMultiplier;
+    scoreEl.textContent = score.toLocaleString();
+    scoreEl.classList.add('pop');
+    setTimeout(() => scoreEl.classList.remove('pop'), 100);
+
+    clicksInWindow.push(Date.now());
+    updateCombo();
+    openMouth();
+    showPop(e.clientX, e.clientY);
+    spawnParticles(e.clientX, e.clientY);
+
+    // Audio pop
+    try {
+      const actx = new (window.AudioContext || window.webkitAudioContext)();
+      const osc = actx.createOscillator();
+      const gain = actx.createGain();
+      osc.connect(gain);
+      gain.connect(actx.destination);
+      osc.frequency.value = 600 + Math.random() * 400;
+      osc.type = 'sine';
+      gain.gain.value = 0.08;
+      gain.gain.exponentialRampToValueAtTime(0.001, actx.currentTime + 0.08);
+      osc.start();
+      osc.stop(actx.currentTime + 0.08);
+    } catch(_) {}
+  });
+
+  // Track mouse movement for anti-bot
+  document.addEventListener('mousemove', (e) => {
+    AntiBot.recordMouseMove(e.clientX, e.clientY);
+  });
+
+  // Prevent context menu on cat
+  catBtn.addEventListener('contextmenu', e => e.preventDefault());
+
+  // ===== PERIODIC CHALLENGE FOR HIGH SCORES =====
+  setInterval(() => {
+    if (score > 0 && score % 500 === 0 && !challengeActive && !AntiBot.isBanned) {
+      if (AntiBot.trustScore < 80) {
+        showChallenge();
+      }
+    }
+  }, 5000);
+
+  // Anti-tamper: protect score
+  let _realScore = 0;
+  Object.defineProperty(window, '__score', {
+    get() { return _realScore; },
+    set(v) {
+      if (typeof v !== 'number' || v < 0 || v - _realScore > 10) {
+        AntiBot.trustScore -= 50;
+      }
+      _realScore = v;
+    }
+  });
+
+})();
+</script>
+</body>
+</html>
